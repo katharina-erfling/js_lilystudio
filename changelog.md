@@ -8,6 +8,16 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.21.1
+
+#### 🐛 Behoben
+- Die in v1.21.0 eingeführte Vervollständigung neuer Breiten war aufgrund einer falschen Stammdatenreferenz nicht aktiv.
+- Neue Breiten werden jetzt zuverlässig gegen die verfügbaren Maße des gewählten Materials geprüft.
+
+#### 🔄 Verbessert
+- Neue Breiten und Durchmesser werden über einen eigenen LilyStudio-Dialog zur Übernahme in die Stammdaten angeboten.
+- Ein Wert kann alternativ weiterhin nur für den aktuellen Artikel verwendet werden.
+
 ## v1.21.0
 
 ### ✨ Neu
