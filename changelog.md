@@ -11,6 +11,17 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 
 ## 🌿 v1.20 -- Nachbestellmanagement
 
+### v1.20.9
+
+#### 🐛 Behoben
+- Beim Löschen eines Historieneintrags wirkte die gesamte Historie teilweise leer, obwohl andere Einträge noch vorhanden waren.
+- Eine ältere Bestandsansicht überschrieb nach dem Löschen die kombinierte Materialhistorie.
+- Gelöschte Historieneinträge konnten nach erneutem Öffnen teilweise wieder erscheinen und mussten mehrfach gelöscht werden.
+
+#### 🔄 Verbessert
+- Löschvorgänge der Historie werden jetzt als abgeschlossener Datenstand gespeichert.
+- Historie und Bestellhistorie werden unmittelbar nach dem Löschen sauber aktualisiert.
+
 ### v1.20.8
 
 #### ✨ Neu
