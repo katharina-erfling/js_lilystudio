@@ -11,6 +11,19 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 
 ## 🌿 v1.20 -- Nachbestellmanagement
 
+### v1.20.7
+
+#### 🔄 Verbessert
+- Der aktuelle Einkaufspreis eines Materials wird jetzt unabhängig von historischen Warenzugängen gepflegt.
+- Einkaufspreise werden in Eingabefeldern sauber auf zwei Nachkommastellen dargestellt.
+- Mit **Enter** kann ein Material direkt gespeichert werden.
+- **Shift + Enter** bleibt in mehrzeiligen Notizfeldern für Zeilenumbrüche verfügbar.
+
+#### 🐛 Behoben
+- Manuell eingetragene Einkaufspreise wurden bei Materialien mit vorhandener Einkaufshistorie teilweise wieder überschrieben.
+- JavaScript-Gleitkommaartefakte wie `2,7900000000000005` werden nicht mehr im Preisfeld angezeigt.
+
+
 ### v1.20.6
 
 #### ✨ Neu
