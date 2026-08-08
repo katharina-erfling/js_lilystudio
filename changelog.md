@@ -8,6 +8,13 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.25.1
+
+#### 🐛 Behoben
+- Produkte ließen sich nach dem Update auf v1.25.0 nicht mehr öffnen.
+- Die neue kategoriebasierte Breitenlogik griff versehentlich auch außerhalb der Materialanlage.
+- Materialbezogene Auswahl- und Vorschlagslogik ist jetzt strikt auf den Materialdialog begrenzt.
+
 ## v1.25.0
 
 ### ✨ Neu
