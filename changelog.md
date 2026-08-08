@@ -9,6 +9,22 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 
 ------------------------------------------------------------------------
 
+## v1.22.0
+
+### ✨ Neu
+- Bezugsquellen können jetzt um zusätzliche Einkaufsinformationen ergänzt werden.
+- Neue Felder für:
+  - Gebinde
+  - Mindestabnahme
+  - Versandkosten
+  - Versandkostenfrei ab
+  - individuelle Notizen
+- Die zusätzlichen Angaben werden direkt an der jeweiligen Bezugsquelle gespeichert und erleichtern den Vergleich mehrerer Lieferanten.
+
+### 🔄 Verbessert
+- Bezugsquellen wurden übersichtlicher in mehrere Informationsbereiche gegliedert.
+- Vergleichsrelevante Einkaufsbedingungen sind jetzt direkt beim Material sichtbar.
+
 ### v1.21.2
 
 #### 🐛 Behoben
