@@ -8,6 +8,17 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.25.2
+
+#### 🐛 Behoben
+- Produktkarten konnten trotz des vorherigen Regression-Fixes weiterhin nicht zuverlässig geöffnet werden.
+- Unvollständige ältere Produkt- oder Materialart-Daten konnten den gesamten Öffnungsvorgang abbrechen.
+
+#### 🔄 Verbessert
+- Der Produktdialog wird jetzt robuster gegen unvollständige Bestandsdaten geladen.
+- Produktvarianten, Stückliste und Kalkulation werden voneinander isolierter initialisiert.
+- Produktkarten werden nach dem Rendern zuverlässig mit dem aktuellen Öffnen-Handler verbunden.
+
 ### v1.25.1
 
 #### 🐛 Behoben
