@@ -11,6 +11,20 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 
 ## 🌿 v1.20 -- Nachbestellmanagement
 
+### v1.20.8
+
+#### ✨ Neu
+- Historieneinträge können direkt im Materialdialog gelöscht werden.
+- Die Löschfunktion ist bewusst dezent in die Historie integriert und besitzt eine Sicherheitsabfrage.
+
+#### 🔄 Verbessert
+- **Enter** speichert ein Material jetzt auch dann, wenn gerade ein Auswahlfeld wie „Form“ fokussiert ist.
+- **Shift + Enter** bleibt in mehrzeiligen Notizfeldern für Zeilenumbrüche verfügbar.
+
+#### 🛡️ Sicherheit
+- Verknüpfte Einkaufs- und Produktionsbuchungen können nicht versehentlich über die Materialhistorie gelöscht werden und bleiben an ihren jeweiligen Ursprungsdatensatz gebunden.
+
+
 ### v1.20.7
 
 #### 🔄 Verbessert
