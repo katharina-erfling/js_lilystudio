@@ -8,6 +8,28 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.23.0
+
+### ✨ Neu
+- Bezugsquellen können einen eigenen Verfügbarkeitsstatus erhalten:
+  - Normal
+  - Abverkauf
+  - Ausverkauft
+  - Nicht mehr verfügbar
+- Regulärpreis und aktueller Einkaufspreis können getrennt gepflegt werden.
+- Preisreduzierungen werden automatisch als prozentualer Rabatt berechnet.
+- Optionales Enddatum für Preisaktionen ergänzt.
+- Eigene Aktionsnotiz pro Bezugsquelle ergänzt.
+- Neuer Bezugsquellenvergleich direkt innerhalb eines Materials.
+- Vergleichsansicht für Preis, Rabatt, Verfügbarkeit, Gebinde,
+  Mindestabnahme und Versandbedingungen.
+
+### 🔄 Verbessert
+- Einkaufsbedingungen verschiedener Händler lassen sich direkt miteinander vergleichen.
+- Die bevorzugte Bezugsquelle wird im Vergleich hervorgehoben.
+- Abverkauf und Verfügbarkeit werden artikelspezifisch je Bezugsquelle verwaltet,
+  statt den gesamten Lieferanten oder das Material pauschal zu kennzeichnen.
+
 ### v1.22.2
 
 #### ✨ Neu
