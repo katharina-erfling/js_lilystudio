@@ -8,6 +8,18 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.25.3
+
+#### 🐛 Behoben
+- Produktkarten reagierten teilweise überhaupt nicht auf Klicks.
+- Der Produktdialog war zu stark von mehreren älteren Öffnungs- und Renderpfaden abhängig.
+
+#### 🔄 Verbessert
+- Produktkarten verwenden jetzt eine zentrale und robuste Klicksteuerung.
+- Der Produktdialog öffnet sofort und lädt Stückliste, Varianten und Kalkulation anschließend getrennt.
+- Fehler in einzelnen Produktbereichen verhindern nicht mehr das Öffnen des gesamten Produkts.
+
+  
 ### v1.25.2
 
 #### 🐛 Behoben
