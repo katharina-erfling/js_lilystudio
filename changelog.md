@@ -8,6 +8,16 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.23.1
+
+#### 🐛 Behoben
+- Der in v1.23.0 eingeführte Bezugsquellenvergleich war im Materialdialog teilweise nicht sichtbar und dadurch nicht erreichbar.
+
+#### 🔄 Verbessert
+- Der Bezugsquellenbereich besitzt jetzt eine feste Vergleichsleiste.
+- Anzahl der hinterlegten Bezugsquellen wird direkt angezeigt.
+- Der Bezugsquellenvergleich kann über **„Vergleichen“** unmittelbar oberhalb der Bezugsquellen geöffnet werden.
+
 ## v1.23.0
 
 ### ✨ Neu
