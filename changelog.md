@@ -8,6 +8,17 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.21.0
+
+### ✨ Neu
+- Breiten können direkt beim Bearbeiten eines Materials als neue Stammdaten ergänzt werden.
+- Wird eine bisher unbekannte Breite eingegeben, bietet LilyStudio beim Speichern automatisch an, diese für die gewählte Materialart zu übernehmen.
+- Unterschiedliche Schreibweisen wie `20`, `20mm` und `20 mm` werden beim Abgleich vereinheitlicht.
+
+### 🔄 Verbessert
+- Freie Breiteneingaben bleiben weiterhin möglich, auch wenn eine neue Breite nicht in die Stammdaten übernommen werden soll.
+- Maßeinheiten werden bei der Vervollständigung automatisch anhand der Materialart berücksichtigt.
+
 
 ## 🌿 v1.20 -- Nachbestellmanagement
 
