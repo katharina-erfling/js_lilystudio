@@ -1,147 +1,264 @@
-🌿 LilyStudio
+# 🌿 LilyStudio
 
-Eine browserbasierte All-in-One-Lösung für Materialverwaltung, Einkauf, Produktion und Kalkulation – entwickelt für Maker, Kreativbetriebe und kleine Unternehmen, die ihre Materialien und Arbeitsabläufe übersichtlich an einem Ort verwalten möchten.
+> **Materialverwaltung, Einkauf, Produktion und Kalkulation für Maker und kleine kreative Unternehmen.**
 
-LilyStudio ist als eigenes Praxisprojekt entstanden und wird kontinuierlich anhand realer Anforderungen weiterentwickelt.
+LilyStudio ist eine browserbasierte All-in-One-Anwendung zur Verwaltung von **Materialien, Beständen, Einkäufen, Produkten und Produktionsabläufen**.
 
-✨ Besonderheiten
+Das Projekt ist aus dem praktischen Bedarf entstanden, Materialverwaltung und kreative Produktion übersichtlich miteinander zu verbinden – ohne die Komplexität klassischer Warenwirtschaftssysteme.
 
-📦 Umfangreiche Materialverwaltung – Materialien lassen sich mit Kategorien, Materialarten, Farben, Maßen, Formen, Einheiten, Lagerorten, Lieferanten, Artikelnummern, Einkaufspreisen, Beständen und weiteren Informationen erfassen und verwalten.
+---
 
-🗂️ Flexible Kategorien & Stammdaten – Kategorien können hierarchisch organisiert werden. Farben, Lieferanten, Lagerorte, Einheiten und weitere Stammdaten werden zentral gepflegt und stehen anschließend im gesamten System zur Verfügung.
+## ✨ Features
 
-🖼️ Bildbasierte Materialübersicht – Materialien können mit mehreren Bildern hinterlegt werden. Ein Hauptbild sorgt für eine schnelle visuelle Orientierung in Übersichten und Bearbeitungsansichten.
+### 📦 Materialverwaltung
 
-🔎 Schnelle Navigation & Filterung – dynamisch erzeugte Kategorie-Kacheln, Unterkategorie-Shortcuts, Filter und Sortierungen ermöglichen auch bei einem größeren Materialbestand eine übersichtliche Navigation.
+Materialien werden nicht nur als einfacher Lagerbestand geführt, sondern können umfangreich beschrieben und organisiert werden.
 
-✏️ Sammel- & Tabellenbearbeitung – mehrere Materialien können gleichzeitig ausgewählt und entweder gemeinsam oder individuell in einer tabellarischen Ansicht bearbeitet werden.
+- 🗂️ Kategorien & Unterkategorien
+- 🧵 Materialarten
+- 🎨 Farben
+- 📏 Maße, Breiten & Formen
+- 📍 Lagerorte
+- 🔢 Artikelnummern
+- 🖼️ mehrere Bilder & Hauptbild
+- 📝 Notizen
+- 📦 Bestand & Meldebestand
+- 💰 Einkaufspreise
+- 🚚 Lieferanten & Bezugsquellen
 
-📉 Intelligentes Nachbestellmanagement – Meldebestände erkennen Materialien mit niedrigem Bestand. Nachbestellungen können priorisiert, zurückgestellt oder bewusst ausgeschlossen werden.
+Durch **verschachtelbare Kategorien** lassen sich auch größere Materialbestände übersichtlich strukturieren.
 
-🛒 Eigene Nachbestellplanung – offene Nachbesteller werden in einer separaten Tabellenansicht mit Bildern, Lieferanten, Beständen, Prioritäten und Notizen organisiert. Filter, Sortierung und Drag & Drop unterstützen die Planung größerer Bestellungen.
+---
 
-🏷️ Mehrere Beschaffungszustände – Materialien können unter anderem als automatisch nachzubestellen, zurückgestellt, nicht nachzubestellen oder nicht mehr verfügbar gekennzeichnet werden.
+### 🔎 Finden statt Suchen
 
-🚚 Lieferanten & Bezugsquellen – Materialien lassen sich Lieferanten und bevorzugten Bezugsquellen zuordnen und mit relevanten Einkaufsinformationen ergänzen.
+LilyStudio ist darauf ausgelegt, auch bei vielen hundert oder tausend Materialien übersichtlich zu bleiben.
 
-📜 Bestands- & Einkaufshistorie – Bestandsbewegungen und Einkäufe bleiben nachvollziehbar, sodass nicht nur der aktuelle Bestand, sondern auch dessen Entwicklung sichtbar ist.
+> **Kategorie-Kacheln** ermöglichen den schnellen Einstieg in die oberste Kategorieebene.
 
-🧮 Kalkulation & Produktion – LilyStudio geht über eine reine Inventarliste hinaus und verbindet die Materialverwaltung mit Funktionen für Produktkalkulation und Produktionsabläufe.
+Unterkategorien können anschließend als **Shortcuts für die Filterung** verwendet werden, ohne sich durch mehrere Ebenen klicken zu müssen.
 
-💾 Lokale Nutzung – LilyStudio ist als leichtgewichtige browserbasierte Anwendung konzipiert und benötigt kein großes externes Software-Ökosystem.
+Zusätzlich stehen verschiedene **Filter- und Sortiermöglichkeiten** zur Verfügung.
 
-📦 Materialverwaltung
+---
 
-Das Herzstück von LilyStudio ist die Materialdatenbank.
+### ✏️ Mehrfachbearbeitung
 
-Ein Material kann nicht nur mit einem Namen und Bestand erfasst werden, sondern mit zahlreichen Informationen beschrieben und strukturiert werden. Dazu gehören beispielsweise:
+Viele Materialien ändern, ohne jeden Datensatz einzeln öffnen zu müssen.
 
-Kategorie und Materialart
-Farbe
-Breite bzw. Größe
-Form
-Einheit
-Lagerort
-Lieferant und Bezugsquelle
-Artikelnummer
-Einkaufspreis
-aktueller Bestand und Meldebestand
-Bilder und Hauptbild
-Notizen
-Nachbestellstatus und Priorität
+LilyStudio bietet dafür zwei unterschiedliche Arbeitsweisen:
 
-Kategorien können verschachtelt werden, sodass auch umfangreichere Materiallager sinnvoll strukturiert bleiben.
+| Modus | Funktion |
+|---|---|
+| **Sammelbearbeitung** | Einen Wert gleichzeitig auf mehrere Materialien anwenden |
+| **Tabellenbearbeitung** | Mehrere Materialien gemeinsam anzeigen und individuell bearbeiten |
 
-🛒 Einkauf & Nachbestellung
+Auch größere zusammenhängende Materialbereiche können komfortabel ausgewählt werden.
 
-LilyStudio erkennt anhand der hinterlegten Meldebestände, welche Materialien nachbestellt werden sollten.
+---
 
-Dabei bedeutet ein niedriger Bestand jedoch nicht automatisch, dass ein Material tatsächlich auf der Einkaufsliste landen muss. Materialien können beispielsweise bewusst zurückgestellt, nicht nachbestellt oder als nicht mehr verfügbar gekennzeichnet werden.
+## 🛒 Nachbestellmanagement
 
-Die Nachbestellplanung bietet eine eigene tabellarische Arbeitsansicht mit:
+Ein niedriger Bestand bedeutet nicht automatisch, dass ein Material sofort bestellt werden muss.
 
-Materialbild und Bezeichnung
-Lieferant
-Bestand und Meldebestand
-mehrstufiger Priorisierung
-individuellen Notizen
-Filtern und Gruppierungen
-sortierbaren Spalten
-manueller Reihenfolge per Drag & Drop
+Deshalb besitzt LilyStudio ein eigenes **Nachbestellmanagement**.
 
-Damit wird aus einer einfachen Warnung bei niedrigem Bestand eine tatsächliche Einkaufsplanung.
+### Mögliche Zustände
 
-✏️ Mehrfachbearbeitung
+- 🔄 **Automatisch** – Nachbestellung anhand des Meldebestands
+- ⏸️ **Zurückgestellt** – momentan bewusst nicht bestellen
+- 🚫 **Nicht nachbestellen** – Material soll nicht erneut beschafft werden
+- ❌ **Nicht verfügbar** – Material kann nicht mehr bestellt werden
 
-Gerade bei großen Materialbeständen wäre es umständlich, jeden Datensatz einzeln öffnen zu müssen.
+Dadurch verschwinden bewusst nicht bestellte Materialien nicht einfach aus dem Blick.
 
-LilyStudio bietet deshalb zwei unterschiedliche Wege zur Mehrfachbearbeitung:
+---
 
-Sammelbearbeitung
-Ein Wert kann gleichzeitig auf mehrere ausgewählte Materialien angewendet werden.
+### 📋 Nachbestellplanung
 
-Tabellenbearbeitung
-Ausgewählte Materialien werden gemeinsam in einer Tabelle dargestellt und können dort trotzdem individuell bearbeitet werden.
+Offene Nachbestellungen besitzen eine eigene Arbeitsansicht.
 
-Die Materialauswahl unterstützt dabei auch größere zusammenhängende Auswahlbereiche.
+Dort stehen unter anderem zur Verfügung:
 
-🏭 Produktion & Kalkulation
+- 🖼️ Materialvorschau
+- 🧵 Material & Kategorie
+- 🚚 Lieferant
+- 📦 Bestand / Meldebestand
+- 🚦 mehrstufige Priorität
+- 📝 individuelle Bestellnotizen
+- 🔎 Filter
+- 🗂️ Gruppierungen
+- ↕️ sortierbare Tabellenspalten
+- 🖱️ Drag & Drop zur manuellen Priorisierung
+- 📄 eigene Seitennavigation für größere Bestelllisten
 
-LilyStudio ist nicht nur als Lagerverwaltung gedacht.
+Die Nachbestellliste ist damit nicht nur eine Warnanzeige, sondern dient als **aktive Einkaufsplanung**.
 
-Materialbestand, Einkauf, Produktdaten und Produktion sollen innerhalb einer gemeinsamen Anwendung miteinander verbunden werden. Dadurch können Materialien nicht nur verwaltet, sondern auch im Kontext der daraus entstehenden Produkte betrachtet werden.
+---
 
-Die Bereiche Produkte, Produktion und Kalkulation werden deshalb unabhängig voneinander weiterentwickelt und greifen auf dieselbe zentrale Materialbasis zurück.
+## 🚚 Einkauf & Bezugsquellen
 
-🎯 Projektziel
+Materialien können mit ihren bevorzugten Lieferanten und Bezugsquellen verbunden werden.
 
-Viele klassische Warenwirtschafts- und Inventarsysteme sind für kleine kreative Unternehmen entweder zu umfangreich, zu unflexibel oder mit laufenden Kosten verbunden.
+Dabei lassen sich unter anderem Informationen zu
+
+- Lieferant
+- Artikelnummer
+- Einkaufspreis
+- Bezugsquelle
+- Bestellungen
+
+hinterlegen und miteinander verknüpfen.
+
+Eine **Bestell- und Bestandshistorie** macht vergangene Bewegungen nachvollziehbar.
+
+---
+
+## 🏭 Produkte & Produktion
+
+LilyStudio endet nicht beim Materiallager.
+
+Die Anwendung verbindet die Materialverwaltung mit den daraus entstehenden Produkten und Produktionsabläufen.
+
+```text
+Material
+   ↓
+Einkauf
+   ↓
+Bestand
+   ↓
+Produkt
+   ↓
+Produktion
+   ↓
+Kalkulation
+```
+
+Die einzelnen Bereiche bleiben dabei eigenständig, greifen aber auf eine gemeinsame Materialbasis zurück.
+
+---
+
+## 🧮 Kalkulation
+
+Materialpreise und weitere Kosten können für die Kalkulation eigener Produkte genutzt werden.
+
+Ziel ist es, nicht nur zu wissen:
+
+> **„Was habe ich auf Lager?“**
+
+sondern auch:
+
+> **„Was kostet mich das Produkt tatsächlich?“**
+
+Damit entwickelt sich LilyStudio von einer reinen Inventarverwaltung zu einer Arbeitsumgebung für den gesamten Herstellungsprozess.
+
+---
+
+## 🎯 Warum LilyStudio?
+
+Viele bestehende Systeme sind für kleine kreative Unternehmen entweder
+
+- zu umfangreich,
+- zu unflexibel,
+- auf klassische Handelsunternehmen ausgelegt
+- oder mit laufenden Kosten verbunden.
 
 LilyStudio verfolgt deshalb einen anderen Ansatz:
 
-Eine übersichtliche und flexibel erweiterbare Arbeitsumgebung, die sich an den tatsächlichen Abläufen kleiner Produktions- und Kreativbetriebe orientiert.
+> ### Eine übersichtliche und flexibel erweiterbare Arbeitsumgebung, die sich an den tatsächlichen Abläufen kleiner Produktions- und Kreativbetriebe orientiert.
 
-Das Projekt wird iterativ entwickelt. Neue Funktionen entstehen nicht anhand eines theoretischen Feature-Katalogs, sondern aus konkreten Anforderungen im täglichen Einsatz.
+Neue Funktionen entstehen dabei nicht nur anhand eines theoretischen Feature-Katalogs, sondern vor allem aus **konkreten Anforderungen im täglichen Einsatz**.
 
-🛠️ Technologien
-HTML5 – Struktur und Benutzeroberfläche
-CSS3 – responsives Layout, Komponenten und Benutzerinteraktionen
-Vanilla JavaScript – Anwendungslogik ohne Frontend-Framework
-Browser APIs – lokale Datenhaltung und interaktive Funktionen
-Drag & Drop – unter anderem für Priorisierung und Organisation
+---
 
-LilyStudio verwendet bewusst kein React, Vue, Angular oder vergleichbares Frontend-Framework.
+## 🛠️ Tech Stack
 
-📁 Projektstruktur
+| Technologie | Einsatz |
+|---|---|
+| **HTML5** | Struktur & Benutzeroberfläche |
+| **CSS3** | Layout, Responsive Design & UI |
+| **Vanilla JavaScript** | Anwendungslogik |
+| **Browser APIs** | lokale Datenhaltung & Interaktionen |
+| **Drag & Drop API** | Sortierung & Priorisierung |
 
-LilyStudio wird modular innerhalb einer browserbasierten Anwendung weiterentwickelt.
+### Ohne Frontend-Framework
 
-Die vollständige interne Projektstruktur und Implementierungsdetails werden in diesem Repository bewusst nicht veröffentlicht.
+LilyStudio wird bewusst ohne React, Vue, Angular oder vergleichbare Frontend-Frameworks entwickelt.
 
-🚧 Entwicklungsstand
+```text
+HTML  •  CSS  •  Vanilla JavaScript
+```
 
-LilyStudio befindet sich in aktiver Entwicklung.
+---
 
-Die Anwendung wird regelmäßig erweitert und optimiert. Neben neuen Funktionen gehören dazu insbesondere Verbesserungen an Bedienung, Datenverwaltung, Performance und Workflows für größere Materialbestände.
+## 🚧 Entwicklungsstand
 
-Änderungen der einzelnen Versionen werden im Changelog dokumentiert.
+> 🟢 **Aktive Entwicklung**
 
-🔒 Quellcode
+LilyStudio wird kontinuierlich erweitert und im praktischen Einsatz getestet.
 
-Dieses Repository dient in erster Linie der Dokumentation und Präsentation des Projekts sowie seiner Weiterentwicklung.
+Der Fokus liegt aktuell insbesondere auf:
 
-Der vollständige Quellcode von LilyStudio ist derzeit nicht öffentlich verfügbar.
+- Materialverwaltung
+- großen Materialbeständen
+- Einkaufs- & Nachbestellmanagement
+- Produkten
+- Produktion
+- Kalkulation
+- komfortabler Massenbearbeitung
+- übersichtlichen Workflows
 
-Screenshots, Funktionsbeschreibungen und Changelogs zeigen den Entwicklungsstand des Projekts, ohne die vollständige Implementierung offenzulegen.
+Änderungen und neue Funktionen werden im **Changelog** dokumentiert.
 
-🗺️ Weiterentwicklung
+---
 
-LilyStudio wird kontinuierlich ausgebaut. Geplant sind unter anderem weitere Verbesserungen in den Bereichen:
+## 🗺️ Roadmap
 
-Materialverwaltung · Einkauf · Nachbestellung · Produkte · Produktion · Kalkulation · Auswertungen · Benutzerfreundlichkeit
+LilyStudio soll schrittweise um weitere Funktionen ergänzt werden.
 
-Der Fokus liegt dabei darauf, auch bei wachsenden Datenbeständen eine schnelle und übersichtliche Bedienung zu erhalten.
+```text
+✓ Materialverwaltung
+✓ Stammdaten
+✓ Kategorien & Unterkategorien
+✓ Bestandsverwaltung
+✓ Einkauf
+✓ Nachbestellmanagement
+✓ Mehrfachbearbeitung
 
-📌 Status
+↻ Produkte
+↻ Produktion
+↻ Kalkulation
+↻ Auswertungen
+↻ weitere Workflow-Optimierungen
+```
 
-Aktive Entwicklung · Vanilla JavaScript · Browserbasiert
+> Die Roadmap entwickelt sich gemeinsam mit den Anforderungen aus der praktischen Nutzung weiter.
+
+---
+
+## 🔒 Quellcode
+
+Dieses Repository dient derzeit in erster Linie der **Dokumentation und Präsentation von LilyStudio und seiner Entwicklung**.
+
+Der vollständige Quellcode ist **nicht öffentlich verfügbar**.
+
+Veröffentlicht werden unter anderem:
+
+- 📖 Projektdokumentation
+- 📋 Features
+- 📝 Changelog / Patch Notes
+- 🖼️ ausgewählte Screenshots
+- 🗺️ Entwicklungsfortschritt
+
+Interne Implementierungsdetails und die vollständige Anwendungslogik bleiben privat.
+
+---
+
+## 📌 Projektstatus
+
+**🌿 LilyStudio**  
+`Active Development` · `HTML5` · `CSS3` · `Vanilla JavaScript`
+
+---
+
+*LilyStudio is an independent software project in active development.*
