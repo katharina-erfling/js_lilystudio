@@ -8,6 +8,23 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.24.0
+
+### ✨ Neu
+- Preis- und Verfügbarkeitsinformationen der bevorzugten Bezugsquelle sind jetzt direkt im oberen Materialbereich erreichbar.
+- Dort können zusätzlich zum aktuellen Einkaufspreis gepflegt werden:
+  - Verfügbarkeitsstatus
+  - Regulärpreis
+  - Aktionsende
+  - Aktionsnotiz
+- Rabatt gegenüber dem Regulärpreis wird direkt angezeigt.
+- Dezenter „Nach oben“-Button ergänzt, der erst nach längerem Scrollen erscheint.
+
+### 🔄 Verbessert
+- Preis- und Aktionsinformationen oben im Materialdialog und in der bevorzugten Bezugsquelle werden miteinander synchronisiert.
+- Historie und Bestellhistorie erhalten bei mehr als sechs Einträgen einen eigenen Scrollbereich.
+- Lange Materialdialoge bleiben dadurch deutlich kompakter und besser navigierbar.
+
 ### v1.23.1
 
 #### 🐛 Behoben
