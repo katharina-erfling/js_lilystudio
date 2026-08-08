@@ -8,6 +8,23 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.25.0
+
+### ✨ Neu
+- Breiten- und Durchmesservorschläge in der Materialanlage werden jetzt kategoriebasiert verwaltet.
+- Bereits verwendete Maße einer Kategorie stehen automatisch als Vorschläge zur Verfügung.
+- Neue Maße können direkt zur jeweiligen Kategorie ergänzt werden.
+- Escape schließt offene Vorschlagslisten, Auswahlfelder oder den aktuell geöffneten Dialog.
+
+### 🐛 Behoben
+- Enter in der Namensvervollständigung speicherte teilweise den Artikel, statt einen Vorschlag zu übernehmen.
+- Enter in geöffneten Stammdaten-Auswahlen konnte fälschlich den gesamten Materialdialog speichern.
+- Neu angelegte Material-Stammdaten ließen sich teilweise nicht zuverlässig auswählen.
+
+### 🔄 Verbessert
+- Enter übernimmt bei Namensvorschlägen standardmäßig den ersten passenden Treffer, wenn noch kein Eintrag aktiv markiert wurde.
+- Neu angelegte Materialien werden direkt vollständig als Stammdaten übernommen und ausgewählt.
+
 ## v1.24.0
 
 ### ✨ Neu
