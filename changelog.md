@@ -9,6 +9,12 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 
 ------------------------------------------------------------------------
 
+### v1.22.1
+
+#### 🐛 Behoben
+- Bei der Auswahl einer vorhandenen Breite bzw. eines Durchmessers aus der Vorschlagsliste wurde teilweise nur der Zahlenwert übernommen.
+- Die hinterlegte Maßeinheit der Materialart wird jetzt auch bei Auswahl aus vorhandenen Vorschlägen direkt ergänzt.
+
 ## v1.22.0
 
 ### ✨ Neu
