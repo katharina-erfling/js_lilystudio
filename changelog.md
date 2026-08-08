@@ -8,6 +8,17 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.22.2
+
+#### ✨ Neu
+- Autovervollständigung für Materialnamen ergänzt.
+- Bereits verwendete Namen werden während der Eingabe als Vorschläge angeboten.
+- Häufig verwendete Bezeichnungen werden bevorzugt angezeigt.
+- Vorschläge können per Maus oder Tastatur übernommen werden.
+
+#### 🔄 Verbessert
+- Freie Namenseingabe bleibt vollständig erhalten.
+- Ähnliche Materialbezeichnungen lassen sich konsistenter wiederverwenden.
 
 ### v1.22.1
 
