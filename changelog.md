@@ -8,6 +8,17 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+
+### v1.21.2
+
+#### 🐛 Behoben
+- Maßeinheiten bei Breite bzw. Durchmesser gingen nach dem Neuladen teilweise verloren.
+- Werte wie `20 mm` wurden nach `F5` teilweise nur noch als `20` angezeigt.
+
+#### 🔄 Verbessert
+- Breite bzw. Durchmesser werden jetzt zusätzlich als vollständiger Maßtext inklusive Einheit gespeichert.
+- Bestehende Materialien werden beim Laden automatisch auf die hinterlegte Maßeinheit ihrer Materialart abgeglichen.
+
 ### v1.21.1
 
 #### 🐛 Behoben
@@ -27,7 +38,7 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 
 ### 🔄 Verbessert
 - Freie Breiteneingaben bleiben weiterhin möglich, auch wenn eine neue Breite nicht in die Stammdaten übernommen werden soll.
-- Maßeinheiten werden bei der Vervollständigung automatisch anhand der Materialart berücksichtigt.
+- Maßeinheiten werden bei der Vervollständigung automatisch anhand der Materialart berücksichtigt
 
 
 ## 🌿 v1.20 -- Nachbestellmanagement
