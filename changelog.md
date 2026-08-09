@@ -8,6 +8,14 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.31.6
+
+#### 🔄 Verbessert
+- Nachbestellprioritäten werden jetzt auch auf den Materialkarten berücksichtigt.
+- „Niedrig“ und „Sehr niedrig“ werden auf der Materialübersicht bewusst zurückhaltender dargestellt.
+- Der Nachbestell-Tag zeigt bei abweichender Priorität zusätzlich die Prioritätsstufe an.
+- Normale Priorität behält den kompakten Tag „Nachbestellen“.
+
 ### v1.31.5
 
 #### 🐛 Behoben
