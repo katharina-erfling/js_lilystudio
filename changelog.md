@@ -8,6 +8,23 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.37.1
+
+### ✨ Neu
+- Lieferanten können jetzt Versandkostenstaffeln nach Bestellwert besitzen.
+- Die Staffelung ist optional und ergänzt die bisherige einfache Versandkostenlogik.
+- Pro Staffel werden Mindestbestellwert und Versandkosten hinterlegt.
+- Beliebig viele Versandstufen sind möglich.
+
+### 🔄 Verbessert
+- Lieferanten mit komplexen Versandmodellen wie „ab 0 €, ab 40 €, ab 200 €“ können korrekt abgebildet werden.
+- Der Bezugsquellenvergleich kennzeichnet solche Versandkosten als gestaffelt und zeigt die hinterlegten Stufen.
+- Die Versandkostenberechnung kann abhängig vom Bestellwert die passende Staffel ermitteln.
+
+### 🔒 Unverändert
+- Pauschale Versandkosten und „versandkostenfrei ab“ bleiben weiterhin verfügbar.
+- Individuelle Abweichungen pro Material bzw. Bezugsquelle bleiben möglich.
+
 ## v1.37.0
 
 ### ✨ Neu
