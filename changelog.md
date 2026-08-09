@@ -8,6 +8,19 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.33.7
+
+### 🐛 Behoben
+- Die Breiten-/Durchmesser-Vervollständigung wird nach der Auswahl einer Kategorie wieder sofort aktualisiert.
+- Auch ohne automatisch vorausgewählte Kategorie stehen die für die gewählte Kategorie hinterlegten Maße wieder als Vorschläge zur Verfügung.
+- Neue Materialien starten weiterhin mit leerer Kategorie und leerem Breitenfeld.
+
+## v1.33.6
+
+### 🐛 Behoben
+- Beim Anlegen eines neuen Materials ist das Feld „Breite / Durchmesser“ jetzt leer.
+- Maße eines zuvor geöffneten Materials werden nicht mehr versehentlich in eine Neuanlage übernommen.
+
 ## v1.33.5
 
 ### 🐛 Behoben
