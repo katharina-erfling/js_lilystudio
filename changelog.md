@@ -8,6 +8,19 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.30.4
+
+#### 🐛 Behoben
+- Kategorien konnten intern vorhanden sein, aber in den Stammdaten vollständig ausgeblendet werden.
+- Dadurch meldete LilyStudio beim Anlegen einer Kategorie „existiert bereits“, obwohl der Eintrag nicht auffindbar war.
+- Die Dublettenprüfung bei Kategorien berücksichtigte die Kategoriehierarchie nicht korrekt.
+
+#### 🌳 Kategorien
+- Inaktive Kategorien bleiben in den Stammdaten sichtbar und werden als „inaktiv“ gekennzeichnet.
+- Verwaiste Kategorien werden ebenfalls angezeigt und entsprechend markiert.
+- Dubletten werden nur noch innerhalb derselben übergeordneten Kategorie geprüft.
+- Ein vorhandener inaktiver/verwaister Eintrag kann beim Speichern automatisch reaktiviert werden.
+
 ### v1.30.3
 
 #### 🐛 Behoben
