@@ -8,6 +8,24 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.31.0
+
+### 🌳 Kategorien & Meldebestand
+- Meldebestände werden entlang der Hauptkategorie-Hierarchie vererbt.
+- Unterkategorien übernehmen standardmäßig den Meldebestand ihrer übergeordneten Kategorie.
+- Für Unterkategorien kann bewusst ein abweichender eigener Meldebestand festgelegt werden.
+- Meldebestände werden niemals addiert.
+- Individuelle Meldebestände am Material überschreiben weiterhin den Kategorie-Standard.
+- In den Stammdaten wird angezeigt, von welcher Kategorie ein Meldebestand übernommen wird.
+
+### 🔄 Schnellfilter
+- Die bisherige Chip-Liste für sämtliche Unterkategorien wurde entfernt.
+- Pro Hauptbereich bleibt nur noch „Alle <Hauptkategorie>“ direkt sichtbar.
+- Unterkategorien werden über einen kompakten Dropdown-Picker geöffnet.
+- Der Picker ist durchsuchbar und bei langen Kategoriehierarchien scrollbar.
+- Eine ausgewählte Unterkategorie erscheint als einzelner aktiver Filter-Chip.
+- Der aktive Unterkategorie-Filter kann direkt über × entfernt werden.
+
 ### v1.30.6
 
 #### 🐛 Behoben
