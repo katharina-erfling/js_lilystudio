@@ -8,6 +8,14 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.32.9
+
+### 🐛 Behoben
+- Bestands- und Prioritätsmarkierungen werden jetzt dem tatsächlich sichtbaren Material zugeordnet.
+- Materialien mit vorhandenem Bestand konnten fälschlicherweise als Nullbestand rot hervorgehoben werden.
+- Die Ursache war eine unterschiedliche Paginierung zwischen Materialkarten und nachträglichen Statusmarkierungen.
+- Niedrige und sehr niedrige Nachbestellprioritäten behalten ihre bewusst zurückhaltende Darstellung.
+
 ## v1.32.8
 
 ### 🐛 Behoben
