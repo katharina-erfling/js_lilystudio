@@ -8,6 +8,19 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.36.5
+
+### 🐛 Behoben
+- Beim Wechsel der bevorzugten Bezugsquelle wird der allgemeine Preis- und Lieferantenbereich jetzt vollständig aktualisiert.
+- Lieferant, Artikelnummer und Shop-Link werden aus der neu bevorzugten Bezugsquelle übernommen.
+- Einzelpreis, regulärer Preis und Preisart werden korrekt gespiegelt.
+- Gebindepreise sowie alle Mengenpreis-Staffeln inklusive eigener Staffel-Links werden übernommen.
+- Status, Aktionszeitraum und Aktionsnotiz wechseln ebenfalls mit der bevorzugten Bezugsquelle.
+- Restwerte der zuvor bevorzugten Bezugsquelle bleiben nicht mehr im oberen Bereich stehen.
+
+### 🔄 Verbessert
+- Kommawerte in den allgemeinen Preisfeldern werden beim Zurückschreiben in die bevorzugte Bezugsquelle zuverlässig verarbeitet.
+
 ## v1.36.4
 
 ### 🐛 Behoben
