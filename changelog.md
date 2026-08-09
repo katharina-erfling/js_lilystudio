@@ -8,6 +8,18 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.36.6
+
+### 🔄 Verbessert
+- Zusatzinformationen einer Bezugsquelle sind jetzt kompakt einklappbar.
+- Status, Aktionsdaten, Gebinde-Info, Mindestabnahme und Notiz befinden sich unter „Weitere Angaben“.
+- Versandkosten und Grenze für versandkostenfreie Lieferung bleiben direkt sichtbar.
+- Bevorzugte Bezugsquelle und Löschen bleiben ebenfalls jederzeit erreichbar.
+
+### 🎨 Oberfläche
+- Bezugsquellenkarten benötigen dadurch deutlich weniger vertikalen Platz.
+- Der Bereich „Weitere Angaben“ kann bei Bedarf einzeln pro Bezugsquelle geöffnet werden.
+
 ## v1.36.5
 
 ### 🐛 Behoben
