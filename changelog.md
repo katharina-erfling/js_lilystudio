@@ -8,6 +8,15 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.32.2
+
+#### 🐛 Behoben
+- Datenqualitätsfilter wurden vom finalen Materialkarten-Renderer ignoriert.
+- Dadurch konnten Trefferzahl und angezeigte Materialkarten voneinander abweichen.
+- „Ohne Lieferant“ zeigt jetzt ausschließlich Materialien ohne Lieferant.
+- „Ohne Preis“ berücksichtigt den tatsächlich aktuellen Einkaufspreis aus der bevorzugten Bezugsquelle.
+- Filterchip, Trefferzahl und Kartenansicht verwenden nun dieselbe Filterlogik.
+
 ### v1.32.1
 
 #### 🐛 Behoben
