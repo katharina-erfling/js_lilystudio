@@ -8,6 +8,16 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.35.3
+
+### 🔄 Verbessert
+- Das Feld „Menge“ ist bei neu angelegten Mengenpreis-Staffeln jetzt standardmäßig leer.
+
+### 🐛 Behoben
+- Beim Aktivieren von „Eigener Link für diese Staffel“ bleiben bereits eingegebene Preis- und Mengenwerte erhalten.
+- Das Linkfeld wird jetzt nur innerhalb der betreffenden Staffel ein- oder ausgeblendet, ohne die gesamte Staffel-Liste neu zu rendern.
+- Das Entfernen eines Staffel-Links beeinflusst die übrigen Staffelwerte nicht mehr.
+
 ## v1.35.2
 
 ### 🔄 Verbessert
