@@ -8,6 +8,20 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.30.5
+
+#### 🔄 Verbessert
+- Der Kategorie-Filter auf der Materialübersicht ist jetzt kontextabhängig.
+- Innerhalb einer Hauptkategorie werden nur deren Unterkategorien angeboten.
+- „Alle Kategorien“ bleibt ausschließlich im globalen Modus „Alle Materialien“ verfügbar.
+- Breadcrumb und Kategorie-Filter bleiben dadurch logisch miteinander synchron.
+- Beim Wechsel zwischen Hauptkategorien werden alte Kategorie-Filter automatisch zurückgesetzt.
+- Verschachtelte Kategorien werden kompakt eingerückt angezeigt.
+
+#### 🐛 Behoben
+- Materialien konnten trotz Navigation innerhalb einer Hauptkategorie über den Filter in einen völlig anderen Kategoriebaum wechseln.
+- Der Materialzähler bzw. Leerzustand konnte dadurch fälschlich `0 Materialien` anzeigen.
+
 ### v1.30.4
 
 #### 🐛 Behoben
