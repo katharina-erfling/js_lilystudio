@@ -8,6 +8,16 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.26.2
+
+#### 🐛 Behoben
+- „Datensicherung“ und „Sicherung laden“ wurden auf der eigentlichen Materialien-Startseite mit den Kategorie-Kacheln nicht angezeigt.
+
+#### 🔄 Verbessert
+- Sicherungsfunktionen sind jetzt sowohl auf der Materialien-Startseite als auch in der Materialliste direkt im jeweiligen Seitenkopf erreichbar.
+- Die vorhandenen Sicherungsfunktionen werden abhängig von der aktuellen Materialansicht automatisch an die passende Stelle verschoben.
+
+
 ### v1.26.1
 
 #### 🐛 Behoben
