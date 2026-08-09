@@ -8,6 +8,13 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.30.1
+
+#### 🐛 Behoben
+- Kategorien in den Stammdaten zeigten zwar einen Drag-Cursor, ließen sich aber nicht tatsächlich ziehen.
+- Der Drag-Start wurde jetzt direkt an den dafür vorgesehenen Griff gebunden.
+- Unterordnen und Zurückziehen auf die Hauptkategorie verwenden nun denselben stabilen Drag-Pfad.
+
 ## v1.30.0
 
 ### 🐛 Behoben
