@@ -8,6 +8,20 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.31.1
+
+#### ✨ Neu
+- Bestandsfelder unterstützen Mausrad-Eingaben.
+- Mausrad-Steuerung funktioniert in Einzelmaterial, Sammelbearbeitung und Tabellenbearbeitung.
+- Bestandswerte werden nur verändert, wenn das jeweilige Eingabefeld aktiv fokussiert ist.
+
+#### 🐛 Behoben
+- Der Status „Nicht nachbestellen“ wurde auf Materialkarten nicht mehr angezeigt.
+- Status-Badges für „Zurückgestellt“ und „Nicht mehr verfügbar“ werden ebenfalls wieder dargestellt.
+
+#### 🔄 Verbessert
+- Nachbestellstatus und tatsächlicher Meldebestand werden auf Materialkarten wieder eindeutig unterschieden.
+
 ## v1.31.0
 
 ### 🌳 Kategorien & Meldebestand
