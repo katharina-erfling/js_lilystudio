@@ -8,6 +8,19 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.32.3
+
+#### 🐛 Behoben
+- Schnelländerung des Materialbestands auf den Karten war verschwunden.
+- Materialien mit Lieferant „Unbekannte Herkunft“ wurden fälschlich unter „Ohne Preis“ aufgeführt.
+
+#### 🔄 Verbessert
+- Bestand kann wieder direkt in der Materialübersicht über − / + geändert werden.
+- Einkaufspreis startet bei neuen Materialien leer statt mit `0`.
+- Regulärer Preis startet ebenfalls leer statt mit `0`.
+- Gespeicherte `0`-Preise werden im Eingabefeld leer dargestellt.
+- „Ohne Preis“ berücksichtigt nur Materialien, bei denen tatsächlich ein Preis erwartet wird.
+
 ### v1.32.2
 
 #### 🐛 Behoben
