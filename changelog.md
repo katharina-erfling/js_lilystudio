@@ -8,6 +8,22 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.36.0
+
+### ⚡ Performance
+- Das Öffnen von Materialien wurde beschleunigt und doppelte Öffnungsaufrufe über Karten und Kartenbuttons wurden beseitigt.
+- Bereits gespeicherte Bilder werden beim normalen Speichern nicht mehr unnötig erneut aus Blob-URLs geladen und verarbeitet.
+- Materialänderungen schließen den Dialog jetzt unmittelbar; die dauerhafte IndexedDB-Speicherung wird im Hintergrund abgeschlossen.
+
+### 🔄 Verbessert
+- Preis- und Staffelinformationen, Nachbestellstatus, Priorität, Nachbestellnotiz und Bruchlast werden jetzt direkt im regulären Material-Speichervorgang übernommen.
+- Mehrere nachgelagerte vollständige Speichervorgänge wurden zusammengeführt.
+
+### 🐛 Behoben
+- Ein verzögertes zweites Rendern der Materialübersicht nach dem Speichern wurde entfernt.
+- Dadurch werden unnötiges Bildflackern und verzögerte UI-Reaktionen reduziert.
+- Die gemerkte Scrollposition wird unmittelbar nach dem Schließen wiederhergestellt.
+
 ## v1.35.4
 
 ### 🔄 Verbessert
