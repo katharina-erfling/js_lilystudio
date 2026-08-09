@@ -8,6 +8,13 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.31.5
+
+#### 🐛 Behoben
+- Die Nachbestellpriorität wurde beim Speichern eines Materials teilweise nicht dauerhaft übernommen.
+- Status, Priorität und Nachbestellnotiz werden jetzt gemeinsam nach Abschluss der gesamten Material-Speicherkette abgesichert.
+- Prioritätsänderungen direkt in der Nachbestellliste werden zusätzlich unmittelbar persistent gespeichert.
+
 ### v1.31.4
 
 #### 🔄 Verbessert
