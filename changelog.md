@@ -8,6 +8,12 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.25.10
+
+#### 🐛 Behoben
+- Lagerort war in der Materialanlage versehentlich zum Pflichtfeld geworden.
+- Materialien können wieder ohne zugewiesenen Lagerort angelegt und bearbeitet werden.
+
 ### v1.25.9
 
 #### 🐛 Behoben
