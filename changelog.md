@@ -8,6 +8,13 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.36.8
+
+### 🐛 Behoben
+- Der Button „Vergleichen“ bei den Bezugsquellen reagiert wieder zuverlässig auf Klicks.
+- Der Button wird nach dem Neuaufbau der Bezugsquellen erneut mit der aktuellen Vergleichsfunktion verbunden.
+- Veraltete Funktionsreferenzen können den Vergleich nicht mehr blockieren.
+- Für Probleme beim Öffnen des Vergleichsdialogs wurde ein Fallback ergänzt.
 
 ## v1.36.7
 
