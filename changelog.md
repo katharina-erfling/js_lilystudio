@@ -8,6 +8,40 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.28.0
+
+### ✨ Neu
+- Kategorien können einem Material per Checkbox mehrfach zugewiesen werden.
+- Kategorien im Materialdialog werden hierarchisch und scrollbar dargestellt.
+- Neue Kategorien können direkt beim Anlegen eines Materials erstellt werden.
+- Beim Erstellen einer Kategorie kann sofort die übergeordnete Kategorie gewählt werden.
+- Neue Kategorien sind anschließend unmittelbar auswählbar.
+- Lieferanten können direkt aus dem Materialdialog neu angelegt werden.
+- Durchsuchbarer Icon-Picker für Kategorie-Stammdaten ergänzt.
+- Eigene Emojis und kurze Zeichen können weiterhin frei als Kategorie-Icon eingegeben werden.
+- Betroffene Materialien unter Auswertungen → Nachbestellungen können nach Spalten sortiert werden.
+
+### 🌳 Kategorien
+- Mehrfachzuordnung von Kategorien zu Materialien ergänzt.
+- Bestehende Hauptkategorie bleibt aus Kompatibilitätsgründen erhalten.
+- Kategorie-Dropdowns zeigen die vollständige Hierarchie.
+- Verschachtelte Kategorien werden mit vollständigem Pfad dargestellt.
+- Stammdaten-Kategorien erhalten einen überarbeiteten Drag-&-Drop-Modus.
+- Kategorien können vor oder nach anderen Kategorien einsortiert werden.
+- Kategorien können per Drag & Drop zu Unterkategorien gemacht werden.
+- Kategorien können wieder auf die oberste Ebene verschoben werden.
+- Material-Schnellfilter berücksichtigen auch Mehrfachkategorien und tiefere Hierarchieebenen.
+
+### 🔄 Verbessert
+- Escape behandelt offene Picker, Vorschläge, Comboboxen und Dialoge jetzt unmittelbar und in eindeutiger Reihenfolge.
+- Materialnamen in Nachbestelllisten bleiben optisch zurückhaltend.
+- Kategorie-Auswahl im Materialdialog bleibt auch bei vielen Kategorien kompakt und scrollbar.
+- Nachbestell-Auswertung zeigt Materialien weiterhin mit Bild und eindeutigen Merkmalen.
+
+### 🛠️ Stammdaten
+- Kategorie-Icons werden zentral in den Stammdaten gepflegt.
+- Der Icon-Picker bietet eine größere durchsuchbare Auswahl für Material-, Werkzeug-, Versand-, Farb- und weitere Kategorien.
+
 ## v1.27.0
 
 ### ✨ Neu
