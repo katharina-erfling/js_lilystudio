@@ -8,7 +8,18 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
-## v1.36.6
+
+## v1.36.7
+
+### ✨ Neu
+- Im allgemeinen Preisbereich können jetzt Versandkosten hinterlegt werden.
+- Zusätzlich kann die Grenze für versandkostenfreie Lieferung eingetragen werden.
+
+### 🔄 Verbessert
+- Versandkosten und „versandkostenfrei ab“ sind mit der bevorzugten Bezugsquelle synchronisiert.
+- Beim Wechsel der bevorzugten Bezugsquelle werden auch deren Versandinformationen in den allgemeinen Preisbereich übernommen.
+- Änderungen im allgemeinen Preisbereich werden bei der bevorzugten Bezugsquelle gespeichert.
+- Versandkostenfelder unterstützen Kommawerte.## v1.36.6
 
 ### 🔄 Verbessert
 - Zusatzinformationen einer Bezugsquelle sind jetzt kompakt einklappbar.
