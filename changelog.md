@@ -8,6 +8,23 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.26.1
+
+#### 🐛 Behoben
+- Unpassender Punkt bei Materialien mit Bestand `0` entfernt.
+- Auswahl des Werts `0` im Einkaufspreisfeld reagiert jetzt direkt auf Klick/Fokus.
+- Escape schließt Vorschläge, Auswahlfelder und Materialdialog ohne unnötige Verzögerung.
+- „Nach oben“-Button im Materialdialog erneut stabilisiert.
+
+#### ✨ Neu
+- Scrollposition der Materialübersicht wird beim Öffnen eines Artikels gemerkt und nach Schließen oder Speichern wiederhergestellt.
+
+#### 🔄 Verbessert
+- Datensicherung und „Sicherung laden“ werden direkt im Kopf der Materialübersicht angezeigt.
+- Auswertungsbereich „Nachbestellungen“ heißt jetzt „Nachbestellliste“.
+- Betroffene Materialien in der Nachbestell-Auswertung werden kompakter und eindeutiger dargestellt.
+- Nullbestand bleibt optisch hervorgehoben, ohne zusätzliche Symbolmarkierung.
+
 ## v1.26.0
 
 ### ✨ Neu
