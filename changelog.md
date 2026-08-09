@@ -8,6 +8,22 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.26.0
+
+### ✨ Neu
+- Materialien mit Bestand `0` werden in der Übersicht deutlich hervorgehoben.
+- Shop-Links können direkt über einen kleinen Öffnen-Button neben dem Eingabefeld aufgerufen werden.
+- Datensicherung und „Sicherung laden“ sind direkt im Kopf der Materialübersicht erreichbar.
+
+### 🔄 Verbessert
+- Einkaufspreis, Verfügbarkeitsstatus, Regulärpreis, Aktionsende und Aktionsnotiz wurden zu einem gemeinsamen Bereich „Einkauf & Verfügbarkeit“ zusammengeführt.
+- Beim Klick in ein Einkaufspreisfeld mit Wert `0` wird die Null automatisch markiert und kann direkt überschrieben werden.
+- Der „Nach oben“-Button ist im Materialdialog dauerhaft sichtbar und nicht mehr von Scroll-Schwellen oder Sichtbarkeitsberechnungen abhängig.
+
+### 🎨 Oberfläche
+- Nullbestand wird in Materialkarten dezent, aber eindeutig hervorgehoben.
+- Sicherungsfunktionen sind im normalen Material-Workflow leichter erreichbar.
+
 ### v1.25.15
 
 #### 🐛 Behoben
