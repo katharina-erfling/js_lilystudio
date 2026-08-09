@@ -8,6 +8,19 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.36.3
+
+### 🐛 Behoben
+- Die Bezugsquellenkarten wurden grundlegend neu angeordnet, damit sich Felder nicht mehr überlagern oder gegenseitig verdrängen.
+- Mengenpreis-Staffeln erscheinen jetzt zuverlässig unter den Basis- und Preisfeldern.
+- Status, Versand, Notizen und Shop-Link folgen wieder in einer festen, nachvollziehbaren Reihenfolge.
+- Die Karten passen sich an schmalere Dialogbreiten an, ohne Felder zusammenzuquetschen.
+
+### 🔒 Unverändert
+- Preisarten und Mengenstaffeln
+- Bezugsquellenvergleich
+- Speicherlogik
+
 ## v1.36.2
 
 ### 🐛 Behoben
