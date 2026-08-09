@@ -8,6 +8,25 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.30.6
+
+#### 🐛 Behoben
+- Die Auswahlcheckboxen der Mehrfachauswahl verschwanden nach dem Rendern der Materialkarten.
+- Die Mehrfachauswahl wird jetzt nach dem endgültigen Kartenaufbau zuverlässig wieder eingeblendet.
+
+#### ✨ Neu
+- Mehrere Kategorien können jetzt auch in der Sammelbearbeitung zugewiesen werden.
+- Die Sammelbearbeitung verwendet einen hierarchischen Kategorie-Picker mit Checkboxen.
+- Kategorien können dort durchsucht und direkt neu angelegt werden.
+- Die Tabellenbearbeitung unterstützt ebenfalls Mehrfachkategorien pro Material.
+- Kategorieauswahl in der Tabellenansicht ist als kompakter aufklappbarer Picker in die Tabellenzelle integriert.
+- Auch aus der Tabellenbearbeitung können neue Kategorien angelegt werden.
+
+#### 🔄 Verbessert
+- Kategoriehierarchien werden in beiden Massenbearbeitungen vollständig angezeigt.
+- Lange Kategorielisten sind scrollbar.
+- Mehrfachkategorien bleiben mit der bisherigen primären Kategorie kompatibel.
+
 ### v1.30.5
 
 #### 🔄 Verbessert
