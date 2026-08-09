@@ -8,6 +8,17 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.35.2
+
+### 🔄 Verbessert
+- Eigene Shop-Links für Mengenpreis-Staffeln sind jetzt pro Staffel optional zuschaltbar.
+- Das URL-Feld wird nur eingeblendet, wenn für die jeweilige Staffel tatsächlich ein eigener Link benötigt wird.
+- Neue Staffelungen erhalten direkt den Fokus, sodass mehrere Mengenstufen schneller erfasst werden können.
+
+### 🐛 Behoben
+- Beim Hinzufügen einer weiteren Mengenpreis-Staffel bleiben bereits eingetragene Staffelungen und ihre Werte erhalten.
+- Bestehende Eingaben werden jetzt vor dem Erweitern der Staffel-Liste zuverlässig synchronisiert.
+
 ## v1.35.1
 
 ### 🐛 Behoben
