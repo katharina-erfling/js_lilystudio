@@ -8,6 +8,13 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.32.9
+
+### 🐛 Behoben
+- Die Ansicht „Alle Beschläge“ berücksichtigt jetzt wieder den vollständigen Kategoriebaum.
+- Ein zuvor ausgewählter Unterkategorie-Filter bleibt beim Wechsel auf „Alle Beschläge“ nicht mehr unbemerkt aktiv.
+- Dadurch werden auch Materialien aus tieferen Kategorien wie Roll- und Steckschnallen wieder korrekt angezeigt.
+
 ### v1.32.3
 
 #### 🐛 Behoben
