@@ -8,6 +8,15 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.33.1
+
+### ✨ Neu
+- Bei mehreren Materialseiten gibt es jetzt zusätzlich oberhalb der Materialkarten eine kompakte Paginierung.
+- Die obere Navigation zeigt dezent die aktuelle Seite und ermöglicht direktes Vor- und Zurückblättern, ohne erst bis ans Ende der Übersicht scrollen zu müssen.
+
+### 🔄 Verbessert
+- Die ausführliche Paginierung am Seitenende bleibt unverändert bestehen; die neue obere Variante ist bewusst platzsparender gestaltet.
+
 ## v1.33.0
 
 ### 🐛 Behoben
