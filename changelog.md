@@ -8,6 +8,17 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.35.4
+
+### 🔄 Verbessert
+- Der Rücksprung nach dem Speichern eines Materials erfolgt jetzt ruhiger und ohne unnötiges zweites Rendern der Materialübersicht.
+- Kartenbilder werden dadurch nach dem Speichern nicht mehr unnötig erneut geladen.
+
+### 🐛 Behoben
+- Die Scrollposition der Materialübersicht bleibt nach dem Bearbeiten und Speichern eines Materials erhalten.
+- LilyStudio verwendet dafür jetzt zuverlässig die Position, an der das Material ursprünglich geöffnet wurde.
+- Ein zusätzlicher verzögerter Render-Vorgang, der Bildflackern und Scrollsprünge verursachen konnte, wurde entfernt.
+
 ## v1.35.3
 
 ### 🔄 Verbessert
