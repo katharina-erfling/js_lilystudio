@@ -8,6 +8,24 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.37.0
+
+### ✨ Neu
+- Lieferanten können in den Stammdaten globale Standard-Versandkosten erhalten.
+- Zusätzlich kann pro Lieferant eine Grenze für versandkostenfreie Lieferung hinterlegt werden.
+- Die Versandstandards werden automatisch in neue bzw. nicht individuell überschriebene Bezugsquellen übernommen.
+- Die automatische Übernahme funktioniert sowohl im allgemeinen Preisbereich als auch in den einzelnen Bezugsquellen.
+
+### 🔄 Verbessert
+- Versandkosten eines einzelnen Materials können weiterhin individuell überschrieben werden.
+- LilyStudio unterscheidet zwischen Lieferantenstandard und materialbezogener Abweichung.
+- In den Bezugsquellen wird angezeigt, ob der Lieferantenstandard verwendet wird oder eine individuelle Abweichung vorliegt.
+- Beim Wechsel des bevorzugten Lieferanten werden auch dessen wirksame Versandkonditionen oben angezeigt.
+- Der Bezugsquellenvergleich berücksichtigt die wirksamen Versandkosten aus Lieferantenstandard oder individueller Abweichung.
+
+### 🔒 Bestandsschutz
+- Bereits vorhandene positive Versandwerte an Bezugsquellen bleiben als individuelle Werte erhalten und werden nicht durch neue Lieferantenstandards überschrieben.
+
 ## v1.36.9
 
 ### 🐛 Behoben
