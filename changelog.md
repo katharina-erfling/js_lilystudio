@@ -8,6 +8,29 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.30.3
+
+#### 🐛 Behoben
+- Neue Kategorien konnten im Materialdialog eingegeben werden, wurden aber nicht zuverlässig erstellt bzw. gespeichert.
+- Der Quick-Create-Handler wurde vollständig ersetzt.
+
+#### 🔄 Verbessert
+- Neue Kategorien werden sofort persistent gespeichert.
+- Die neue Kategorie wird direkt im Material ausgewählt.
+- Kategoriebaum, Filter und Stammdaten werden unmittelbar aktualisiert.
+- Enter im Kategorien-Namensfeld legt die Kategorie direkt an.
+
+### v1.30.2
+
+#### 🐛 Behoben
+- Kategorie-Drag-&-Drop startete trotz sichtbarem Drag-Griff nicht zuverlässig.
+- Das native HTML5-Drag-&-Drop wurde für die Kategorieverwaltung vollständig ersetzt.
+
+#### 🔄 Verbessert
+- Kategorien werden jetzt per Pointer-/Maus-Drag verschoben.
+- Beim Ziehen wird eine sichtbare Vorschau der Kategorie mitgeführt.
+- Unterkategorie- und Hauptkategorie-Zielbereiche werden während des Ziehens hervorgehoben.
+
 ### v1.30.1
 
 #### 🐛 Behoben
