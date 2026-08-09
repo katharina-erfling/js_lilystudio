@@ -8,6 +8,14 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.34.1
+
+### 🐛 Behoben
+- Kommapreise beim Mengenpreis lassen sich jetzt vollständig eingeben.
+- Das Preisfeld wird während der Eingabe nicht mehr nach jedem Tastendruck neu gerendert.
+- Eingaben wie „12,95“ und „12.95“ funktionieren jetzt zuverlässig.
+- Der berechnete Einzelpreis aktualisiert sich weiterhin direkt während der Eingabe.
+
 ## v1.34.0
 
 ### 🐛 Behoben
