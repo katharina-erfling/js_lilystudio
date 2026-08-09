@@ -8,6 +8,14 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.36.2
+
+### 🐛 Behoben
+- Das Layout der Bezugsquellenkarten wurde nach der Erweiterung um Preisarten und Mengenstaffeln korrigiert.
+- Felder überlagern sich nicht mehr und werden wieder in klaren Zeilen dargestellt.
+- Die Karten passen sich jetzt responsiv an die verfügbare Breite an.
+- Shop-Link, Status, Versandinformationen und Bezugsquellenaktionen bleiben auch bei kleineren Fensterbreiten sauber bedienbar.
+
 ## v1.36.1
 
 ### ✨ Neu
