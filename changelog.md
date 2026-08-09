@@ -8,6 +8,14 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.33.9
+
+### ✨ Neu
+- Für „Einzelpreis + Mengenpreis“ kann optional ein eigener Shop-Link für den Mengenpreis hinterlegt werden.
+- Der Mengenpreis-Link ist unabhängig vom normalen Shop-Link der Bezugsquelle.
+- Über den Pfeil-Button kann der zusätzliche Link direkt aus dem Materialdialog geöffnet werden.
+- Das Feld wird nur bei der Preisart „Einzelpreis + Mengenpreis“ eingeblendet.
+
 ## v1.33.8
 
 ### ✨ Neu
