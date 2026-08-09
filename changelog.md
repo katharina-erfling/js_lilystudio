@@ -8,6 +8,19 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.25.9
+
+#### 🐛 Behoben
+- Der Materialdialog konnte horizontal über den sichtbaren Bereich hinauslaufen.
+- Dadurch wurden Felder auf der rechten Seite abgeschnitten und eine horizontale Scrollleiste eingeblendet.
+- Der „Nach oben“-Button erschien im Materialdialog zu spät bzw. teilweise gar nicht sichtbar.
+
+#### 🔄 Verbessert
+- Der Materialdialog scrollt nur noch vertikal.
+- Formularbereiche und Spalten passen sich zuverlässig an die verfügbare Dialogbreite an.
+- Der „Nach oben“-Button erscheint bereits nach kurzem Scrollen.
+- Der Button wird bei geöffnetem Materialdialog direkt innerhalb der modalen Dialogebene dargestellt.
+
 ## v1.25.8
 
 ### 🛡️ Datensicherheit
