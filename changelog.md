@@ -8,6 +8,19 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.31.4
+
+#### 🔄 Verbessert
+- Nachbestellungen mit Priorität „Niedrig“ werden optisch zurückhaltender dargestellt.
+- „Sehr niedrige“ Prioritäten sind noch stärker entschärft und wirken weniger dringlich.
+- Beim Hover werden auch niedrige Prioritäten wieder vollständig hervorgehoben.
+
+#### 💾 Datensicherung
+- Mehrere Sicherungen am selben Tag erhalten automatisch fortlaufende Dateinamen.
+- Erste Sicherung: `...-2026-08-09.json`
+- Weitere Sicherungen: `...-2026-08-09-1.json`, `...-2.json` usw.
+- Der Tageszähler bleibt auch nach einem Neuladen erhalten.
+
 ### v1.31.1
 
 #### ✨ Neu
