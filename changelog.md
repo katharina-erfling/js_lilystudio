@@ -8,6 +8,23 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.32.1
+
+#### 🐛 Behoben
+- Standardsortierung war durch einen JavaScript-Fehler praktisch deaktiviert.
+- Materialkarten wurden unterhalb der Nachbestellliste erneut eingeblendet.
+- Drilldowns „ohne Lieferant“ und „ohne Preis“ zeigten fälschlich den gesamten Materialbestand.
+- Datenqualitäts-Drilldowns wurden auf die vorhandene Filterlogik vereinheitlicht.
+
+#### 🔄 Sortierung
+- Kategorie
+- Name
+- Material
+- Farbe
+- Größe
+- Form
+- Artikelnummer
+
 ## v1.32.0
 
 ### ✨ Neu
