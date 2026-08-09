@@ -8,6 +8,19 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.33.8
+
+### ✨ Neu
+- Neue Preisart „Einzelpreis + Mengenpreis“ für Bezugsquellen.
+- Damit können Händler abgebildet werden, bei denen Materialien einzeln erhältlich sind, zusätzlich aber günstigere Mengenpreise angeboten werden.
+- Für den Mengenpreis können Menge und Gesamtpreis angegeben werden.
+- LilyStudio berechnet automatisch den daraus resultierenden Einzelpreis.
+
+### 🔄 Bestehende Preisarten
+- „Einzelpreis“ bleibt unverändert erhalten.
+- „Gebindepreis“ bleibt für Bezugsquellen erhalten, bei denen nur komplette Gebinde gekauft werden können.
+- Pflichtgebinde und optionale Mengenpreise sind damit eindeutig voneinander getrennt.
+
 ## v1.33.7
 
 ### 🐛 Behoben
