@@ -8,6 +8,14 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.36.4
+
+### 🐛 Behoben
+- Jede Bezugsquelle besitzt jetzt eindeutig einen eigenen normalen Shop-Link.
+- Der Shop-Link wird direkt bei den Basisdaten der jeweiligen Bezugsquelle angezeigt.
+- Auch zweite und weitere Lieferanten können unabhängig voneinander verlinkt werden.
+- Mengenstaffel-Links bleiben davon getrennte, optionale Links pro Staffelung.
+
 ## v1.36.3
 
 ### 🐛 Behoben
