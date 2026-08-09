@@ -8,6 +8,18 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.25.4
+
+#### 🐛 Behoben
+- Produktkarten reagierten seit v1.25.0 nicht mehr zuverlässig auf Klicks.
+- Die fehlerhafte Produkt-Regression wurde durch einen Neuaufbau auf Basis der stabilen v1.24.0 entfernt.
+- Enter bei Namensvorschlägen löst nicht mehr versehentlich das Speichern des Materials aus.
+
+#### 🔄 Verbessert
+- Die Änderungen aus v1.25 wurden neu isoliert umgesetzt, ohne in die Produktlogik einzugreifen.
+- Breitenvorschläge in der Materialanlage werden kategoriebasiert verwaltet.
+- Escape schließt Vorschläge, Auswahlfelder oder den aktuell offenen Dialog.
+
 ### v1.25.3
 
 #### 🐛 Behoben
