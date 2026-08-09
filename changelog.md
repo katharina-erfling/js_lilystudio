@@ -8,6 +8,22 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.32.0
+
+### ✨ Neu
+- Neues Materialfeld „Bruchlast“ im oberen Materialstamm.
+- Bruchlast wird dauerhaft gespeichert und in Sicherungen berücksichtigt.
+- Bruchlast kann über die Materialsuche gefunden werden.
+
+### 🔄 Verbessert
+- Standardsortierung innerhalb einer Kategorie: Name → Material → Farbe → Größe.
+- Materialien mit gleichem Namen werden dadurch sinnvoll nach Materialart gruppiert.
+- Bruchlast wird bei vorhandener Angabe kompakt in den Material-Metadaten angezeigt.
+
+### 🐛 Behoben
+- Materialbilder konnten nach dem Speichern mehrfach kurz flackern.
+- Mehrere unmittelbar aufeinanderfolgende Render-Vorgänge beim Speichern werden jetzt zu einem finalen Render zusammengefasst.
+
 ### v1.31.7
 
 #### 🐛 Behoben
