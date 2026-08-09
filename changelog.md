@@ -8,6 +8,17 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.25.15
+
+#### 🐛 Behoben
+- Lagerort wurde trotz mehrfacher vorheriger Korrekturen weiterhin durch eine ältere interne Validierung erzwungen.
+- Lagerort wurde nun direkt aus der ursprünglichen Referenzprüfung entfernt und ist tatsächlich optional.
+- Der „Nach oben“-Button wurde angezeigt, reagierte aber wegen mehrerer übereinanderliegender Click-Handler nicht zuverlässig.
+
+#### 🧹 Bereinigt
+- Mehrere widersprüchliche Zwischen-Patches für Lagerort und „Nach oben“ wurden entfernt.
+- Der „Nach oben“-Button verwendet jetzt nur noch einen eindeutigen Click- und Scroll-Handler.
+
 ### v1.25.14
 
 #### 🐛 Behoben
