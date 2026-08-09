@@ -8,6 +8,32 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.25.8
+
+### 🛡️ Datensicherheit
+- Vollsicherungen wurden auf ein selbstprüfendes, portables Sicherungsformat umgestellt.
+- Originalbilder werden vollständig in die Sicherungsdatei eingebettet.
+- Temporäre `blob:`-Referenzen gelten nicht mehr als gültige Bildsicherung.
+- Für jedes Bild werden Größe und SHA-256-Prüfsumme im Medien-Manifest gespeichert.
+- Eine Sicherung wird abgebrochen, wenn ein hinterlegtes Originalbild nicht gelesen werden kann.
+- Neue Vollsicherungen werden vor dem Import auf Vollständigkeit und Bildintegrität geprüft.
+- Nach dem Import wird zusätzlich kontrolliert, ob alle Bilder erfolgreich im lokalen Bildspeicher gespeichert wurden.
+- Ältere Sicherungen bleiben kompatibel; bei fehlenden eingebetteten Bildern erfolgt eine Warnung.
+
+### 🐛 Behoben
+- Originalbilder wurden nach einem Neustart im Material-Bearbeitungsdialog teilweise nicht mehr angezeigt, obwohl die Kartenansicht noch ein Vorschaubild besaß.
+- Der „Nach oben“-Button war bei geöffneten modalen Dialogen durch die Browser-Dialogebene nicht sichtbar.
+- Die Bestellhistorie erhielt trotz vieler Einträge nicht zuverlässig einen eigenen Scrollbereich.
+- Enter- und Escape-Behandlung konnte auch auf nicht tatsächlich geöffnete Comboboxen reagieren.
+
+### 🔄 Verbessert
+- Originalbilder werden beim Öffnen eines Materials direkt aus dem lokalen Bildspeicher nachgeladen.
+- Materialdialoge besitzen einen definierten Scrollbereich.
+- Der dezente „Nach oben“-Button erscheint nach längerem Scrollen auch innerhalb des Materialdialogs.
+- Historie und Bestellhistorie werden ab mehr als sechs Einträgen kompakt scrollbar.
+- Neue Breiten werden weiterhin kategoriebasiert verwaltet und wieder über den LilyStudio-Vervollständigungsdialog ergänzt.
+- Neu angelegte Material-Stammdaten werden direkt normalisiert und ausgewählt.
+
 ### v1.25.4
 
 #### 🐛 Behoben
