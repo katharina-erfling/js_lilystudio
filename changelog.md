@@ -8,6 +8,13 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.35.1
+
+### 🐛 Behoben
+- Bei „Einzelpreis + Mengenpreis“ wird der Gebindepreis-Block nicht mehr zusätzlich angezeigt.
+- Gebindepreis und Mengenpreis-Staffeln sind jetzt optisch sauber voneinander getrennt.
+- Der Gebindeblock erscheint ausschließlich bei der Preisart „Gebindepreis“.
+
 ## v1.35.0
 
 ### ✨ Neu
