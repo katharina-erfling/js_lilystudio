@@ -8,6 +8,19 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.35.0
+
+### ✨ Neu
+- „Einzelpreis + Mengenpreis“ unterstützt jetzt mehrere Preisstaffeln pro Bezugsquelle.
+- Über „+ Weitere Staffelung“ können beliebig weitere Mengenstufen ergänzt werden, z. B. 10, 50 oder 100 Stück.
+- Jede Staffel kann einen eigenen Gesamtpreis, eine Menge und optional einen eigenen Shop-Link enthalten.
+- Staffelpreis-Links lassen sich direkt über den Pfeil-Button öffnen.
+- Einzelne Staffelungen können separat wieder entfernt werden.
+
+### 🔄 Verbessert
+- Der automatisch berechnete Einzelpreis eines Mengenpreises wird jetzt einheitlich mit zwei Nachkommastellen angezeigt.
+- Bestehende einzelne Mengenpreise werden beim Update automatisch als erste Staffel übernommen.
+
 ## v1.34.1
 
 ### 🐛 Behoben
