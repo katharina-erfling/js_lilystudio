@@ -8,6 +8,13 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.25.14
+
+#### 🐛 Behoben
+- Lagerort wurde trotz optionalem Feld weiterhin durch die interne Referenzprüfung erzwungen.
+- Ein vollständig leerer Lagerort wird jetzt korrekt als gültiger Zustand behandelt.
+- Nur tatsächlich eingegebene Lagerorte müssen aus den Stammdaten ausgewählt sein.
+
 ### v1.25.11
 
 #### 🔄 Verbessert
