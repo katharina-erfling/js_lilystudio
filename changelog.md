@@ -8,6 +8,14 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.34.0
+
+### 🐛 Behoben
+- Beim Mengenpreis können jetzt Preise mit Nachkommastellen eingegeben werden.
+- Deutsche Kommaeingaben wie „12,95“ werden korrekt verarbeitet.
+- Auch die Eingabe mit Dezimalpunkt bleibt möglich.
+- Der daraus berechnete Einzelpreis wird weiterhin automatisch ermittelt.
+
 ## v1.33.9
 
 ### ✨ Neu
