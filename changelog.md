@@ -8,6 +8,14 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.36.9
+
+### 🐛 Behoben
+- Der Bezugsquellenvergleich wurde intern robuster aufgebaut und lässt sich wieder öffnen.
+- Unvollständige oder ältere Bezugsquellendaten können den gesamten Vergleich nicht mehr zum Absturz bringen.
+- Fehlerhafte Einzelquellen werden defensiv behandelt, während die übrigen Bezugsquellen weiterhin angezeigt werden.
+- Einzel-, Gebinde- und Mengenstaffelpreise werden weiterhin im Vergleich berücksichtigt.
+
 ## v1.36.8
 
 ### 🐛 Behoben
