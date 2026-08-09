@@ -8,6 +8,36 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.29.0
+
+### ✨ Neu
+- Browser- und Mausnavigation über Zurück/Vorwärts wird unterstützt.
+- Kategorie-Icon-Picker um zahlreiche weitere voreingestellte Symbole erweitert.
+- Eigene Emojis und kurze Zeichen bleiben weiterhin als individuelle Kategorie-Icons möglich.
+
+### 🌳 Kategorien
+- Drag & Drop in den Kategorie-Stammdaten wurde überarbeitet.
+- Beim Ziehen erscheint an jeder Kategorie eine eindeutige Dropzone „Als Unterkategorie hier hinein“.
+- Kategorien können zuverlässig anderen Kategorien untergeordnet werden.
+- Das Zurückziehen auf die Ebene der Hauptkategorien bleibt möglich.
+- Der Bereich zum direkten Anlegen neuer Kategorien im Materialdialog wurde übersichtlicher gestaltet.
+- Name und übergeordnete Kategorie erhalten mehr Platz; der Anlegen-Button ist kompakter.
+
+### 🐛 Behoben
+- Regulärpreise wurden beim erneuten Öffnen eines Materials teilweise auf `0` zurückgesetzt.
+- Nullbestand wurde auch bei Materialien hervorgehoben, die bewusst nicht nachbestellt werden sollen.
+- Kategorien konnten per Drag & Drop zwar aus einer Hierarchie herausgezogen, aber nicht zuverlässig einer anderen Kategorie untergeordnet werden.
+
+### 🔄 Verbessert
+- Nullbestand wird nicht hervorgehoben bei:
+  - Nicht nachbestellen
+  - Zurückgestellt
+  - Nicht verfügbar
+  - Ausverkauft
+  - Nicht mehr verfügbar
+- Der separate „Nach oben“-Button im Material-Bearbeitungsdialog wurde entfernt.
+- Der globale Seiten-Button bleibt für lange LilyStudio-Seiten erhalten.
+
 ## v1.28.0
 
 ### ✨ Neu
