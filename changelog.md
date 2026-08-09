@@ -8,6 +8,23 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.33.3
+
+### 🔄 Verbessert
+- Der Schnellbestand auf den Materialkarten reagiert jetzt unmittelbar auf Plus- und Minus-Klicks.
+- Schnelle Bestandsänderungen werden beim Speichern gebündelt, sodass die Oberfläche nicht mehr verzögert reagiert und Klicks scheinbar „nachholt“.
+- Beim Anlegen eines neuen Materials wird keine Kategorie mehr automatisch vorausgewählt.
+
+### 🐛 Behoben
+- Mehrfaches Klicken auf die Bestandsbuttons konnte durch die verzögerte Rückmeldung unbeabsichtigt zu größeren Bestandsänderungen führen.
+
+## v1.33.2
+
+### 🐛 Behoben
+- Die Dashboard-Zähler „Ohne Shop-Link“ und „Ohne Preis“ verwenden jetzt dieselbe Datenqualitätslogik wie die zugehörigen Materialfilter.
+- Ausnahmen wie „Unbekannte Herkunft“ werden dadurch sowohl beim Zählen als auch beim Anzeigen der Treffer identisch berücksichtigt.
+- Die angezeigte Anzahl stimmt damit wieder mit den tatsächlich geöffneten Materialien überein.
+
 ## v1.33.1
 
 ### ✨ Neu
