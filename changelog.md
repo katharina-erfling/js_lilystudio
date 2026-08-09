@@ -8,6 +8,27 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.36.1
+
+### ✨ Neu
+- Jede Bezugsquelle unterstützt jetzt dieselben Preisarten wie die bevorzugte Bezugsquelle:
+  - Einzelpreis
+  - Gebindepreis
+  - Einzelpreis + Mengenpreis
+- Pro Bezugsquelle können mehrere Mengenpreis-Staffeln hinterlegt werden.
+- Jede Staffel kann optional einen eigenen Shop-Link besitzen.
+- Gebindepreise berechnen automatisch den resultierenden Einzelpreis.
+
+### 🔄 Verbessert
+- Der Bezugsquellenvergleich berücksichtigt jetzt auch Gebindepreise und Mengenpreis-Staffeln.
+- Zusätzlich wird pro Bezugsquelle der günstigste hinterlegte Stückpreis angezeigt.
+- Preisart und vorhandene Staffelungen sind direkt im Vergleich sichtbar.
+- Versandkosten und Mindestabnahmen bleiben bewusst separat und werden nicht automatisch in den Stückpreis eingerechnet.
+- Preisfelder in den Bezugsquellen akzeptieren jetzt auch Kommaeingaben zuverlässiger.
+
+### 🐛 Behoben
+- Mengenstaffeln wurden im Bezugsquellenvergleich bisher nicht berücksichtigt und konnten dadurch zu irreführenden Preisvergleichen führen.
+
 ## v1.36.0
 
 ### ⚡ Performance
