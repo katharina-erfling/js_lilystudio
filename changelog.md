@@ -8,6 +8,14 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.33.5
+
+### 🐛 Behoben
+- Die Schnellbestandsanzeige aktualisiert die Nullbestandsfarbe jetzt in beide Richtungen sofort.
+- Beim Reduzieren von 1 auf 0 wird die sichtbare Bestandszahl unmittelbar rot.
+- Beim Erhöhen von 0 auf 1 wird die rote Darstellung unmittelbar entfernt.
+- Kartenrahmen und Bestandszahl bleiben bei Schnelländerungen synchron.
+
 ## v1.33.4
 
 ### 🐛 Behoben
