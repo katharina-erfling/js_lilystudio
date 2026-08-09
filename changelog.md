@@ -8,6 +8,13 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+### v1.25.11
+
+#### 🔄 Verbessert
+- Der „Nach oben“-Button wird nicht mehr über eine feste Scrollschwelle gesteuert.
+- Er erscheint jetzt automatisch, sobald der obere Kopfbereich des Materialdialogs nicht mehr sichtbar ist.
+- Beim Zurückscrollen zum Anfang verschwindet der Button wieder.
+
 ### v1.25.10
 
 #### 🐛 Behoben
