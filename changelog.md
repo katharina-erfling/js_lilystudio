@@ -8,6 +8,13 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.33.0
+
+### 🐛 Behoben
+- Die rote Nullbestands-Umrandung wird jetzt dem tatsächlich sichtbaren Material zugeordnet.
+- Materialien mit vorhandenem Bestand konnten nach Seitenwechseln oder Filterungen noch fälschlicherweise wie 0-Bestand markiert werden.
+- Nullbestands-Markierung und Prioritätsdarstellung sind damit wieder sauber voneinander getrennt.
+
 ## v1.32.9
 
 ### 🐛 Behoben
