@@ -8,6 +8,14 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.33.4
+
+### 🐛 Behoben
+- Die Nullbestands-Markierung reagiert jetzt sofort auf Änderungen über den Schnellbestand.
+- Wird ein Bestand von 0 erhöht, verschwindet die rote Darstellung unmittelbar.
+- Wird ein Bestand auf 0 reduziert, erscheint die Nullbestands-Markierung sofort.
+- Bestandszahl und Kartenmarkierung bleiben damit auch während schneller Änderungen synchron.
+
 ## v1.33.3
 
 ### 🔄 Verbessert
