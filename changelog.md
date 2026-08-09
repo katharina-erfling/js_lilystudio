@@ -8,6 +8,35 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.27.0
+
+### ✨ Neu
+- Globaler „Nach oben“-Button für lange LilyStudio-Seiten.
+- Eigener „Nach oben“-Button für den Materialdialog.
+- Mehrstufige Kategoriehierarchien werden vollständig unterstützt.
+- Kategorien können in den Stammdaten per Drag & Drop verschoben und untergeordnet werden.
+- Kategorien können beliebig tief verschachtelt werden, z. B.:
+  - Beschläge
+    - Verschlüsse
+      - Doppelstegschnalle
+- Alle Unterebenen stehen in der Materialansicht als Schnellfilter zur Verfügung.
+- Einkaufspreise können wahlweise als Einzelpreis oder Gebindepreis erfasst werden.
+- Bei Gebindepreisen wird der Einzelpreis automatisch aus Preis und Gebindeinhalt berechnet.
+
+### 🔄 Verbessert
+- Der Auswertungsreiter heißt wieder „Nachbestellungen“.
+- „Betroffene Materialien“ in der Nachbestell-Auswertung orientieren sich jetzt optisch an der eigentlichen Nachbestellliste.
+- Materialien werden dort mit Bild, Kategoriepfad, Materialmerkmalen und Lieferant eindeutig identifizierbar dargestellt.
+- Materialnamen sind in Nachbestelllisten nicht mehr unnötig fett hervorgehoben.
+- Kategorie-Schnellfilter berücksichtigen auch tiefer verschachtelte Ebenen.
+- Kategoriepfade werden in den Stammdaten verständlicher dargestellt.
+
+### 🧱 Stammdaten
+- Übergeordnete Kategorien können weiterhin direkt beim Bearbeiten gewählt werden.
+- Drag & Drop auf eine Kategorie verschiebt einen Eintrag innerhalb der Ebene.
+- „↳ hinein“ ordnet eine Kategorie als Unterkategorie ein.
+- Eine eigene Hauptkategorie-Dropzone verschiebt Kategorien wieder auf die oberste Ebene.
+
 ### v1.26.2
 
 #### 🐛 Behoben
