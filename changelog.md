@@ -8,6 +8,33 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.30.0
+
+### 🐛 Behoben
+- Escape reagierte nach längerer Nutzung teilweise erst nach mehreren Tastendrücken.
+- Mehrere alte Escape-Handler konnten gleichzeitig aktiv sein.
+- Kategorie-Drag-&-Drop erlaubte das Herausziehen, aber nicht zuverlässig das Unterordnen.
+- Der separate „Nach oben“-Button blieb im Materialdialog trotz vorheriger Entfernung sichtbar.
+- Der reguläre Preis der bevorzugten Bezugsquelle ging nach Neuladen teilweise verloren.
+- Der Bereich „Neue Kategorie anlegen“ lief im Materialdialog seitlich aus dem Popup.
+
+### 🌳 Kategorien
+- Kategorie-Drag-&-Drop vollständig neu aufgebaut.
+- Die komplette Kategoriezeile kann gezogen werden.
+- Während des Ziehens erscheint unter jeder Kategorie eine große Zielzone:
+  `↳ Als Unterkategorie ablegen`
+- Kategorien können über eine eigene Dropzone wieder zu Hauptkategorien gemacht werden.
+- Der Quick-Create-Bereich im Materialdialog verwendet jetzt ein vertikales, kompaktes Layout.
+
+### 💾 Stabilität
+- Regulärpreis, Verfügbarkeitsstatus, Aktionsende und Aktionsnotiz werden direkt an der bevorzugten Bezugsquelle gespeichert.
+- Gebindepreis und Gebindeinhalt werden ebenfalls dauerhaft mitgesichert.
+- Der gespeicherte Materialdatensatz wird nach dem Speichern nochmals persistent abgesichert.
+
+### ⌨️ Bedienung
+- Es gibt nur noch einen zentralen globalen Escape-Handler.
+- Ein Escape-Tastendruck schließt offene Hilfs-Popups und anschließend den obersten Dialog zuverlässig.
+
 ## v1.29.0
 
 ### ✨ Neu
