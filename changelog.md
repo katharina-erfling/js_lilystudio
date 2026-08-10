@@ -8,6 +8,27 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.41.0
+
+### ✨ Neu
+- Breiten- und Maßvorschläge berücksichtigen jetzt alle ausgewählten Kategorien.
+- Eine relevante Kategorie liefert ihre Maßvorschläge auch dann, wenn sie nicht als erste Kategorie gewählt wurde.
+- Kategorien besitzen in den Stammdaten editierbare Maßbezeichnung, Maßeinheit und verfügbare Breiten/Maße.
+- Neuer Stammdatenbereich für Bruchlasten.
+- Bruchlastwerte können zentral umbenannt und vereinheitlicht werden.
+- Beim Umbenennen einer Bruchlast werden verknüpfte Materialien automatisch aktualisiert.
+
+### 🔄 Verbessert
+- Die Bruchlast-Autovervollständigung verwendet die zentral gepflegten Stammdaten.
+- Beim Anlegen eines Materials wird die Kategorie jetzt aus dem tatsächlichen Navigationskontext übernommen.
+- Auf der allgemeinen Materialien-Startseite wird keine Kategorie vorausgewählt.
+- Innerhalb einer konkreten Kategorie wird diese automatisch vorausgewählt.
+- Auch neu angelegte Kategorien funktionieren ohne zusätzliche Konfiguration mit der Kontext-Vorauswahl.
+
+### ⚙️ Stabilität
+- Maßvorschläge sind nicht mehr von der Reihenfolge der Mehrfach-Kategorieauswahl abhängig.
+- Keine zusätzlichen vollständigen Speicheraufrufe für die neuen Stammdatenfunktionen.
+
 ## v1.40.0
 
 ### ✨ Neu
