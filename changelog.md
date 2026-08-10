@@ -8,6 +8,37 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.38.0
+
+### ✨ Neu
+- Versandkosten werden jetzt als vollständige Versandregeln behandelt.
+- Unterstützt werden:
+  - pauschale Versandkosten
+  - pauschale Versandkosten mit Freigrenze
+  - Versandkostenstaffeln nach Bestellwert
+  - kostenloser Versand
+  - fehlende bzw. unvollständige Versandregeln
+  - individuelle Abweichungen pro Bezugsquelle
+- Globale Lieferantenregeln werden in Materialien automatisch verständlich dargestellt.
+- Für einzelne Bezugsquellen können Versandkosten bei Bedarf gezielt überschrieben werden.
+- Der Hauptpreisbereich zeigt immer die Versandregel der bevorzugten Bezugsquelle.
+
+### 🔄 Verbessert
+- Versandstaffeln werden als echte Bereiche dargestellt, z. B.
+  „0,00–39,99 €: 2,95 € · 40,00–199,99 €: 4,95 € · ab 200,00 €: kostenlos“.
+- Individuelle Versandfelder werden nur eingeblendet, wenn tatsächlich eine Abweichung benötigt wird.
+- Beim Entfernen einer Abweichung greift automatisch wieder die Lieferantenregel.
+- Der Bezugsquellenvergleich besitzt jetzt eine gemeinsame Spalte „Versandregel“.
+
+### ⚠️ Validierung
+- LilyStudio weist auf fehlende Bereiche in Versandstaffeln hin.
+- Doppelte Staffelgrenzen werden erkannt und als Warnung angezeigt.
+- Aktivierte, aber noch leere Versandstaffeln werden sichtbar gekennzeichnet.
+
+### 🔒 Bestandsschutz
+- Bestehende individuelle Versandkosten bleiben als materialbezogene Abweichungen erhalten.
+- Lieferantenstandards und individuelle Konditionen bleiben klar voneinander getrennt.
+
 ## v1.37.1
 
 ### ✨ Neu
