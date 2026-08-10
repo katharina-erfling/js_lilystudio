@@ -8,6 +8,23 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.39.1
+
+### 🐛 Behoben
+- Die kompakte Preis- und Bezugsquellenansicht läuft bei langen Versandregeln, URLs oder Preisangaben nicht mehr seitlich aus dem Materialdialog.
+- Materialien mit Status „Nicht mehr verfügbar“ werden nicht mehr fälschlich unter „Ohne Preis“ oder „Ohne Shop-Link“ geführt.
+- Dashboard-Zähler, Qualitätsreport und die zugehörigen Filter verwenden jetzt dieselbe Relevanzlogik.
+
+### 🔎 Suche
+- Die Materialsuche berücksichtigt jetzt den Material-Stammdatensatz ausdrücklich.
+- Sowohl aktuelle Stammdatenwerte als auch vorhandene Legacywerte werden durchsucht.
+- Auch Angaben aus Bezugsquellen wie Lieferant, Artikelnummer, Link und Notizen fließen in die Suche ein.
+
+### 🎨 Oberfläche
+- Bruchlast wird nicht mehr auf den Materialkarten der Übersicht angezeigt.
+- Bruchlast bleibt weiterhin über die Suche auffindbar.
+- Die kompakte Preisansicht bricht bei schmaleren Dialogen früher und sauberer um.
+
 ## v1.39.0
 
 ### ✨ Neu
