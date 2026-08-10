@@ -8,6 +8,17 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.42.1
+
+### 🐛 Behoben
+- Frei eingetragene Punkte aus „Daten vervollständigen“ werden jetzt auch direkt im Dashboard angezeigt.
+
+### 📊 Dashboard
+- Eigene offene Punkte erscheinen neben den automatischen Qualitätsprüfungen wie „ohne Bild“ oder „ohne Preis“.
+- Pro Punkt wird die Anzahl der betroffenen Materialien angezeigt.
+- Ein Klick öffnet direkt die entsprechend gefilterte Materialliste.
+- Nicht mehr verwendete Punkte verschwinden automatisch aus dem Dashboard.
+
 ## v1.42.0
 
 ### ✨ Neu – Daten vervollständigen
