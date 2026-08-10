@@ -8,6 +8,14 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.38.1
+
+### 🐛 Behoben
+- Bereits eingegebene Versandstaffeln bleiben erhalten, wenn eine weitere Staffel hinzugefügt wird.
+- Sichtbare Staffelwerte werden vor dem Neuaufbau der Liste zuverlässig synchronisiert.
+- Auch beim Löschen einer Versandstaffel gehen Änderungen an anderen Staffelungen nicht mehr verloren.
+- Beim Speichern der Lieferanten-Stammdaten werden die aktuell sichtbaren Staffelwerte nochmals übernommen.
+
 ## v1.38.0
 
 ### ✨ Neu
