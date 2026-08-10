@@ -8,6 +8,24 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.38.3
+
+### 🐛 Behoben
+- Neue Versandstaffeln werden nicht mehr automatisch als versandkostenfrei markiert.
+- Ein Versandkostenwert von 0 € gilt nicht mehr automatisch als kostenloser Versand.
+- Neue Staffelungen bleiben beim Hinzufügen am Ende der Liste und werden während der Bearbeitung nicht mehr automatisch umsortiert.
+- Das Hinzufügen einer dritten oder weiteren Staffel verändert nicht mehr die sichtbare Reihenfolge bestehender Staffelungen.
+
+### 🎨 Oberfläche
+- Das Layout der Versandstaffeln wurde neu angeordnet.
+- Bestellwert und Versandkosten stehen sauber nebeneinander.
+- „Versandkostenfrei“ erhält eine eigene Zeile.
+- Löschen bleibt separat erreichbar.
+- Die Staffelzeilen passen sich auch bei schmalerem Dialog ohne Überlappungen an.
+
+### ⚠️ Validierung
+- Eine Staffel mit 0 € Versandkosten ohne aktiviertes „versandkostenfrei“ wird als unvollständig erkannt.
+
 ## v1.38.2
 
 ### 🐛 Behoben
