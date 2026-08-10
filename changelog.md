@@ -8,6 +8,27 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.42.0
+
+### ✨ Neu – Daten vervollständigen
+- Materialien können beliebig viele freie offene Punkte erhalten.
+- Der Bereich „Daten vervollständigen“ ist kompakt aufklappbar.
+- Über „+ Weiteren Punkt hinzufügen“ können mehrere Punkte pro Material erfasst werden.
+- Bereits verwendete Einträge werden beim Tippen automatisch vorgeschlagen.
+- Gleiche Einträge werden materialübergreifend automatisch zusammengefasst.
+
+### 📊 Datenqualität
+- Eigene offene Punkte erscheinen automatisch in der Datenqualitätsübersicht.
+- Zu jedem Punkt wird die Anzahl der betroffenen Materialien angezeigt.
+- Ein Klick öffnet direkt die gefilterte Materialliste.
+- Der aktive Punkt wird dort als Filterchip angezeigt.
+- Wird ein Punkt bei Materialien entfernt, aktualisiert sich die Anzahl automatisch.
+- Nicht mehr verwendete Punkte verschwinden automatisch aus der Übersicht.
+
+### 🔎 Suche
+- Freie Punkte aus „Daten vervollständigen“ werden von der Materialsuche mit durchsucht.
+
+
 ## v1.41.0
 
 ### ✨ Neu
