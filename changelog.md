@@ -8,6 +8,24 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.39.0
+
+### ✨ Neu
+- Gespeicherte Preis- und Bezugsquellendaten werden beim Öffnen eines Materials standardmäßig in einer kompakten Übersicht dargestellt.
+- Über „Bearbeiten“ kann jederzeit wieder in die vollständige Eingabemaske gewechselt werden.
+- Materialien ohne gespeicherte Preisdaten öffnen weiterhin direkt die Eingabemaske.
+- Bei mehreren Bezugsquellen ist der Vergleich direkt aus der kompakten Ansicht erreichbar.
+- Die kompakte Ansicht zeigt Einzel-, Gebinde- und Staffelpreise, Versandregeln, Aktionsdaten, Mindestabnahmen, Artikelnummern, Notizen und Links.
+
+### 🐛 Behoben
+- Einzelne Kartenbilder können das vorgesehene Bildfenster nicht mehr durch abweichende Thumbnail-Geometrien verzerren.
+- Kartenbilder füllen den definierten Vorschaubereich jetzt zuverlässig aus.
+- Originalbilder und gespeicherte Bilddaten bleiben dabei unverändert.
+
+### 🎨 Oberfläche
+- Preis- und Lieferantendaten benötigen bei bereits gepflegten Materialien deutlich weniger Platz.
+- Bevorzugte Bezugsquellen und Mengenstaffeln sind in der Übersicht klar hervorgehoben.
+
 ## v1.38.3
 
 ### 🐛 Behoben
