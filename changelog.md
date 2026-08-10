@@ -8,6 +8,18 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.39.2
+
+### 🔎 Suche
+- Die Materialsuche durchsucht jetzt alle relevanten Textdaten eines Materialdatensatzes.
+- Stammdaten-IDs werden zusätzlich automatisch in ihre lesbaren Namen aufgelöst.
+- Materialwerte werden auch gefunden, wenn sie intern nur über eine Stammdaten-ID gespeichert sind.
+- Legacy- und ältere Materialfelder werden ebenfalls berücksichtigt.
+- Suchbegriffe und gespeicherte Werte werden für eine robustere Textsuche normalisiert.
+
+### ⚙️ Performance
+- Bilddaten, Blob-URLs und andere große technische Daten werden bewusst nicht in den Suchtext aufgenommen.
+
 ## v1.39.1
 
 ### 🐛 Behoben
