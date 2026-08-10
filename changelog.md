@@ -8,6 +8,25 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.38.2
+
+### 🐛 Behoben
+- Beim Hinzufügen einer dritten oder weiteren Versandstaffel bleiben alle zuvor eingegebenen Staffelungen erhalten.
+- Versandstaffeln verwenden jetzt stabile Datensätze und werden während der Eingabe nicht mehr gegeneinander verschoben oder überschrieben.
+- Das Synchronisieren bestehender Staffelwerte verändert nicht mehr die Reihenfolge der zugrunde liegenden Daten.
+
+### ✨ Neu
+- Versandstaffeln können ausdrücklich als „versandkostenfrei“ markiert werden.
+- Bei aktivierter Option wird kein Versandkostenbetrag benötigt.
+- Intern wird versandkostenfreier Versand weiterhin korrekt mit 0 € berechnet.
+- Versandregeln werden verständlich als „versandkostenfrei“ statt lediglich als „0,00 €“ dargestellt.
+
+### 🔄 Verbessert
+- Beispiel für Versandstaffeln wurde entsprechend angepasst:
+  - ab 0 € → 2,95 €
+  - ab 40 € → 4,95 €
+  - ab 200 € → versandkostenfrei
+
 ## v1.38.1
 
 ### 🐛 Behoben
