@@ -8,6 +8,19 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.40.0
+
+### ✨ Neu
+- Bruchlast besitzt jetzt eine globale Autovervollständigung.
+- Bereits verwendete Bruchlastwerte werden automatisch als Vorschläge angeboten.
+- Die Vorschläge sind bewusst unabhängig von Kategorie und Materialart.
+- Eigener Meldebestand unterstützt jetzt die Änderung per Mausrad bei fokussiertem Eingabefeld.
+
+### 🔄 Verbessert
+- Eigener Meldebestand arbeitet jetzt mit ganzen 1er-Schritten statt 0,01-Schritten.
+- Bei neuen Materialien ist das Feld für den eigenen Meldebestand nicht mehr unnötig mit 0 vorausgefüllt.
+- Eingegebene Meldebestände werden ohne überflüssige Nachkommastellen dargestellt.
+
 ## v1.39.2
 
 ### 🔎 Suche
