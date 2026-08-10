@@ -8,6 +8,19 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.42.2
+
+### ✨ Neu
+- Lagerorte können jetzt direkt im Materialdialog angelegt werden.
+- Beim Suchen nach einem noch nicht vorhandenen Lagerort erscheint eine passende „Neu anlegen“-Aktion.
+- Neu angelegte Lagerorte werden sofort für das aktuelle Material ausgewählt.
+- Der neue Lagerort wird gleichzeitig dauerhaft in den Stammdaten gespeichert.
+
+### 🔄 Verbessert
+- Die Schnellanlage von Lagerorten verhält sich jetzt konsistent mit Lieferanten, Farben und Materialien.
+- Bestehende verschachtelte Lagerorte bleiben unverändert erhalten.
+- Direkt im Material angelegte Lagerorte werden zunächst als Haupt-Lagerort angelegt und können später in den Stammdaten verschachtelt werden.
+
 ## v1.42.1
 
 ### 🐛 Behoben
