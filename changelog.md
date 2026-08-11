@@ -8,6 +8,28 @@ Alle wichtigen Änderungen und Entwicklungsschritte von **LilyStudio**.
 > Fehlerbehebungen, ohne interne Implementierungsdetails offenzulegen.
 
 ------------------------------------------------------------------------
+## v1.43.0
+
+### 🗂️ Kategorien
+- Bei Auswahl einer Unterkategorie werden automatisch alle übergeordneten Kategorien mit ausgewählt.
+- Beispiel: „O-Ringe“ wählt automatisch auch „Ringe“ und „Beschläge“ aus.
+- Die automatische Hierarchie gilt auch bei kontextabhängiger Kategorie-Vorauswahl.
+- Neu angelegte Kategorien werden automatisch von der Hierarchielogik berücksichtigt.
+
+### 📦 Nachbestellung
+- Kategorien besitzen jetzt einen zentralen Standard für das Nachbestellverhalten.
+- Verfügbare Einstellungen:
+  - Nach Meldebestand überwachen
+  - Standardmäßig nicht nachbestellen
+- Unterkategorien können das Nachbestellverhalten ihrer übergeordneten Kategorie übernehmen.
+- Damit können beispielsweise einmalig verfügbare Materialien wie Fischleder zentral von der Nachbestellung ausgeschlossen werden.
+
+### 🔄 Individuelle Ausnahmen
+- Materialien verwenden standardmäßig das Nachbestellverhalten ihrer Kategorie.
+- Einzelne Materialien können den Kategorie-Standard weiterhin überschreiben.
+- Neue Option „Immer nach Meldebestand überwachen“ ermöglicht eine bewusste Ausnahme innerhalb einer Kategorie, die normalerweise nicht nachbestellt wird.
+- „Nicht nachbestellen“, „Zurückgestellt“ und „Nicht mehr verfügbar“ bleiben als individuelle Status erhalten.
+
 ## v1.42.2
 
 ### ✨ Neu
